@@ -39,14 +39,50 @@ Evaluations across 14 VLMs reveal substantial limitations: closed-source models 
 - `cal_score.py` — Scoring script to parse predictions and compute accuracy.
 
 ### Data Format (Benchmark JSONL)
-Each line is one sample with at least the following fields:
-- `id`: unique sample identifier (string).
-- `image`: path relative to the repository root, e.g., `level1/00004935_0-2=0.png`.
-- `problem`: equation string (present in text-guided setting; e.g., `12 + 34 = 46`).
+Each line is one sample with the following fields:
+- `id` (string): unique sample identifier, e.g., `"00075585"`.
+- `level` (int): difficulty level (1–4) indicating digit scale.
+- `image` (string): image path relative to repo root, e.g., `level1/00075585_8-9=3.png`.
+- `problem` (string): the displayed (incorrect) equation string, e.g., `8-9=3`.
+- `solution_num` (list[int, int]): counts of solvable solutions by move budget `[one_move_count, two_move_count]`.
+- `mode_1_solution` (list): list of one-move solutions. Empty when `solution_num[0] == 0`.
+- `mode_2_solution` (list): list of two-move solutions. Each item has:
+  - `solution` (string): corrected equation (e.g., `"8 - 6 = 2"`).
+  - `moves` (list[string]): standardized move format strings, e.g., `["Move(B2, B5)", "Move(C3, C5)"]`.
+- `option_answer` (object): order-invariant representation of moves, for robust parsing:
+  - `mode_1` (list): each one-move answer as `{ "pick": [from_label], "place": [to_label] }`.
+  - `mode_2` (list): each two-move answer as `{ "pick": [from_label_1, from_label_2], "place": [to_label_1, to_label_2] }`.
+
+Example:
+```json
+{
+  "id": "00075585",
+  "level": 1,
+  "problem": "8-9=3",
+  "image": "level1/00075585_8-9=3.png",
+  "solution_num": [0, 4],
+  "mode_1_solution": [],
+  "mode_2_solution": [
+    {"solution": "8 - 6 = 2", "moves": ["Move(B2, B5)", "Move(C3, C5)"]},
+    {"solution": "9 - 9 = 0", "moves": ["Move(A5, C5)", "Move(C0, C6)"]},
+    {"solution": "6 + 3 = 9", "moves": ["Move(A2, G0)", "Move(B6, C6)"]},
+    {"solution": "9 - 0 = 9", "moves": ["Move(A5, B5)", "Move(B0, C6)"]}
+  ],
+  "option_answer": {
+    "mode_1": [],
+    "mode_2": [
+      {"pick": ["B2", "C3"], "place": ["B5", "C5"]},
+      {"pick": ["A5", "C0"], "place": ["C5", "C6"]},
+      {"pick": ["A2", "B6"], "place": ["G0", "C6"]},
+      {"pick": ["A5", "B0"], "place": ["B5", "C6"]}
+    ]
+  }
+}
+```
 
 Notes:
-- Pure-visual regime uses only `image`.
-- Text-guided regime may feed `problem` as an auxiliary prompt string to the model.
+- Pure-visual regime uses only `image` for model input; text-guided may also use `problem`.
+- The string move format is strict for parsing; `option_answer` provides an order-invariant equivalent when needed.
 
 
 ### Quick Start

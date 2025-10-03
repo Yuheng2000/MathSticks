@@ -144,8 +144,8 @@ If you find MathSticks useful, please cite (arXiv link TBD):
 ```
 @article{mathsticks2025,
   title   = {MathSticks: A Benchmark for Visual Symbolic Compositional Reasoning with Matchstick Puzzles},
-  author  = {Anonymous},
-  journal = {arXiv preprint arXiv:TODO},
+  author  = {Ji, Yuheng and Tan, Huajie and Chi, Cheng and Xu, Yijie and Zhao, Yuting and Zhou, Enshen and Lyu, Huaihai and Wang, Pengwei and Wang, Zhongyuan and Zhang, Shanghang and Zheng, xiaolong},
+  journal = {arXiv preprint arXiv:2510.00483},
   year    = {2025}
 }
 ```

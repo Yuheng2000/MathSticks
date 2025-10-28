@@ -19,7 +19,7 @@ MathSticks is a benchmark for Visual Symbolic Compositional Reasoning (VSCR) tha
 
 Evaluations across 14 VLMs reveal substantial limitations: closed-source models succeed only on simple cases, open-source models fail in the pure-visual regime, while humans exceed 90% accuracy. These results establish MathSticks as a rigorous, diagnostic testbed for advancing compositional reasoning across vision and symbols.
 
-**📄 Paper:** MathSticks: A Benchmark for Visual Symbolic Compositional Reasoning with Matchstick Puzzles (arXiv: TODO)
+**📄 Paper:** MathSticks: A Benchmark for Visual Symbolic Compositional Reasoning with Matchstick Puzzles [arXiv](https://arxiv.org/pdf/2510.00483?)
 
 **🗂️ Dataset:** [yuheng2000/MathSticks](https://huggingface.co/datasets/yuheng2000/MathSticks)
 

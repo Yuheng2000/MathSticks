@@ -1,0 +1,5386 @@
+[
+  {
+    "id": "00004879",
+    "level": 1,
+    "problem": "0-0=3",
+    "image": "level1/00004879_0-0=3.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 5 = 3",
+        "moves": [
+          "Move(B2, A0)",
+          "Move(B5, B0)"
+        ]
+      },
+      {
+        "solution": "3 + 0 = 3",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(A6, G0)"
+        ]
+      },
+      {
+        "solution": "0 + 3 = 3",
+        "moves": [
+          "Move(B5, G0)",
+          "Move(B6, B0)"
+        ]
+      },
+      {
+        "solution": "9 - 6 = 3",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(B2, B0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "B5"
+          ],
+          "place": [
+            "A0",
+            "B0"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "A0",
+            "G0"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "B6"
+          ],
+          "place": [
+            "G0",
+            "B0"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "B2"
+          ],
+          "place": [
+            "A0",
+            "B0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid with one move, turn the left digit from **9** into **3** by moving the upper-left vertical segment **A6** to the missing middle segment **A0**. This changes **9 − 9 = 3** into the correct equation **3 − 9 = −6** (the result digit already reads 6).\n\n\\boxed{{Move(A6, A0)}}"
+  },
+  {
+    "id": "00004912",
+    "level": 1,
+    "problem": "0-1=6",
+    "image": "level1/00004912_0-1=6.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 1 = 6",
+        "moves": [
+          "Move(A2, A0)",
+          "Move(A5, G0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "A5"
+          ],
+          "place": [
+            "A0",
+            "G0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left digit **6** into **8** by adding its missing upper‑right segment, and change the right digit **9** into **8** by adding its missing upper‑left segment. Both needed matchsticks can be taken from the **two horizontal matchsticks of the “=” sign**, turning “=” into “−”, yielding a correct equation:\n\n**8 − 8 = 0**\n\n\\boxed{{Move(E0, A2), Move(E1, C6)}}"
+  },
+  {
+    "id": "00007840",
+    "level": 1,
+    "problem": "1+4=9",
+    "image": "level1/00007840_1+4=9.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "1 + 7 = 8",
+        "moves": [
+          "Move(B0, B1)",
+          "Move(B6, C5)"
+        ]
+      },
+      {
+        "solution": "7 + 1 = 8",
+        "moves": [
+          "Move(B0, A1)",
+          "Move(B6, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "B1",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "A1",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the incorrect equation, turn the leftmost digit from **9** into **3** by moving the **upper-left** matchstick (A6) to the **lower-left** position (A5). This changes the equation from **9 + 0 = 8** to **3 + 0 = 3**, which is mathematically correct.\n\n\\boxed{{Move(A6, A5)}}"
+  },
+  {
+    "id": "00012756",
+    "level": 1,
+    "problem": "1-6=1",
+    "image": "level1/00012756_1-6=1.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "1 - 0 = 1",
+        "moves": [
+          "Move(B0, B2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "B0",
+          "place": "B2"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the left digit **9** into **8** by adding its missing lower-left segment, and change the right digit **8** into **9** by removing that same lower-left segment. This is done by moving one matchstick: take the lower-left segment from the right **8** (segment **C5**) and place it into the missing lower-left segment of the left **9** (segment **A5**). The equation becomes **8 + 1 = 9**, which is true.\n\n\\boxed{{Move(C5, A5)}}"
+  },
+  {
+    "id": "00015201",
+    "level": 1,
+    "problem": "2+1=8",
+    "image": "level1/00015201_2+1=8.png",
+    "solution_num": [
+      1,
+      1
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "2 + 7 = 9",
+        "moves": [
+          "Move(C5, B1)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 1 = 8",
+        "moves": [
+          "Move(A5, A3)",
+          "Move(G0, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "C5",
+          "place": "B1"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "G0"
+          ],
+          "place": [
+            "A3",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left digit from **5** to **9** by moving the lower-left vertical matchstick (A5) to the missing upper-left vertical position (A6). This turns **5 = 8** into **9 = 8**, which is still false—so we also change the right digit from **8** to **9** by moving its lower-left vertical matchstick (C5) to its missing upper-left vertical position (C6). The final valid equation becomes **9 = 9**.\n\n\\boxed{{Move(A5, A6), Move(C5, C6)}}"
+  },
+  {
+    "id": "00022913",
+    "level": 1,
+    "problem": "3+3=7",
+    "image": "level1/00022913_3+3=7.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 2 = 7",
+        "moves": [
+          "Move(A2, A6)",
+          "Move(B3, B5)"
+        ]
+      },
+      {
+        "solution": "2 + 5 = 7",
+        "moves": [
+          "Move(A3, A5)",
+          "Move(B2, B6)"
+        ]
+      },
+      {
+        "solution": "9 - 2 = 7",
+        "moves": [
+          "Move(G0, A6)",
+          "Move(B3, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "B3"
+          ],
+          "place": [
+            "A6",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A3",
+            "B2"
+          ],
+          "place": [
+            "A5",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B3"
+          ],
+          "place": [
+            "A6",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid, change the left digit **9** into **3** by moving the upper-left segment to the missing middle segment.  \n- Remove **A6** (the upper-left vertical of the “9”).  \n- Place it at **C0** (the middle horizontal of the “0”), turning that “0” into “8”.  \nThis yields **3 + 3 = 8**, which is correct.\n\n\\boxed{{Move(A6, C0)}}"
+  },
+  {
+    "id": "00029116",
+    "level": 1,
+    "problem": "3-4=2",
+    "image": "level1/00029116_3-4=2.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 7 = 2",
+        "moves": [
+          "Move(B0, A6)",
+          "Move(B6, B1)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "A6",
+            "B1"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid with two moves, turn the left digit **9** into **8** by adding the missing lower-left segment, and turn the right digit **6** into **8** by adding its missing upper-right segment. This yields the correct equation **8 + 0 = 8**.\n\n\\boxed{{Move(A5, A6), Move(C3, C2)}}"
+  },
+  {
+    "id": "00029119",
+    "level": 1,
+    "problem": "3-4=7",
+    "image": "level1/00029119_3-4=7.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 1 = 7",
+        "moves": [
+          "Move(B0, A5)",
+          "Move(B6, A6)"
+        ]
+      },
+      {
+        "solution": "7 - 4 = 3",
+        "moves": [
+          "Move(A0, C0)",
+          "Move(A4, C4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "A5",
+            "A6"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "A4"
+          ],
+          "place": [
+            "C0",
+            "C4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the left digit from **9** to **5** by moving the **upper-right** segment of the left digit (A2) to the **lower-left** segment (A5). This turns **9 = 8** into **5 = 5**, which is true.\n\n\\boxed{{Move(A2, A5)}}"
+  },
+  {
+    "id": "00029155",
+    "level": 1,
+    "problem": "3-5=9",
+    "image": "level1/00029155_3-5=9.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "3 - 3 = 0",
+        "moves": [
+          "Move(B6, B2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "3 - 0 = 3",
+        "moves": [
+          "Move(B0, B2)",
+          "Move(C6, B5)"
+        ]
+      },
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(A1, A6)",
+          "Move(A4, G0)"
+        ]
+      },
+      {
+        "solution": "5 - 5 = 0",
+        "moves": [
+          "Move(A2, A6)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B6",
+            "C0"
+          ],
+          "place": [
+            "B2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C6"
+          ],
+          "place": [
+            "B2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "A4"
+          ],
+          "place": [
+            "A6",
+            "G0"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "C0"
+          ],
+          "place": [
+            "A6",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the middle digit **B** from **0** into **8** by adding its two missing segments: the **upper-right** segment and the **middle** segment. Those two matchsticks can be taken from the **=** sign (which has two horizontal sticks). After moving both, the display becomes **8 + 8 = 16**, which is correct.\n\n\\[\n\\boxed{{Move(E_{top}, B2), Move(E_{bottom}, B0)}}\n\\]"
+  },
+  {
+    "id": "00032431",
+    "level": 1,
+    "problem": "4+1=8",
+    "image": "level1/00032431_4+1=8.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 - 4 = 0",
+        "moves": [
+          "Move(G0, B0)",
+          "Move(C0, B6)"
+        ]
+      },
+      {
+        "solution": "5 + 1 = 6",
+        "moves": [
+          "Move(A2, A1)",
+          "Move(C2, A4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "B0",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "C2"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left digit **9** into **8** by adding the missing lower-left segment (A5). Move one matchstick from the **top segment of the right 9** (C1) to the **missing lower-left segment of the left 9** (A5). This turns the equation into **8 + 1 = 9**, which is correct.\n\n\\boxed{{Move(C1, A5)}}"
+  },
+  {
+    "id": "00032505",
+    "level": 1,
+    "problem": "4+3=0",
+    "image": "level1/00032505_4+3=0.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 + 4 = 8",
+        "moves": [
+          "Move(B1, B6)",
+          "Move(B4, C0)"
+        ]
+      },
+      {
+        "solution": "3 - 3 = 0",
+        "moves": [
+          "Move(A6, A1)",
+          "Move(G0, A4)"
+        ]
+      },
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(B2, B6)",
+          "Move(C5, C0)"
+        ]
+      },
+      {
+        "solution": "4 + 2 = 6",
+        "moves": [
+          "Move(B3, B5)",
+          "Move(C2, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "B6",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "G0"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        },
+        {
+          "pick": [
+            "B2",
+            "C5"
+          ],
+          "place": [
+            "B6",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "B3",
+            "C2"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the leftmost digit from **9** to **8** by adding the missing lower-left segment. Move the extra matchstick from the **“+”** (which then becomes **“−”**) to that missing segment. This yields a correct equation: **8 − 9 = −1**.\n\n\\boxed{{Move(G0, A5)}}"
+  },
+  {
+    "id": "00032713",
+    "level": 1,
+    "problem": "4+9=3",
+    "image": "level1/00032713_4+9=3.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(B2, C6)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "4 + 4 = 8",
+        "moves": [
+          "Move(B1, C5)",
+          "Move(B4, C6)"
+        ]
+      },
+      {
+        "solution": "1 + 8 = 9",
+        "moves": [
+          "Move(A0, B5)",
+          "Move(A6, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "B2",
+          "place": "C6"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "A6"
+          ],
+          "place": [
+            "B5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the left digit **9** into **0** by moving its middle segment away, and use that matchstick to turn the middle digit **8** into **9** by removing its bottom-left segment.\n\n\\[\n9+8=8 \\;\\;\\Rightarrow\\;\\; 0+9=9\n\\]\n\n\\boxed{{Move(A0, B5), Move(B5, A4)}}"
+  },
+  {
+    "id": "00040007",
+    "level": 1,
+    "problem": "5+4=7",
+    "image": "level1/00040007_5+4=7.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "3 + 4 = 7",
+        "moves": [
+          "Move(A6, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "A6",
+          "place": "A2"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the “+” into “−” by moving the vertical matchstick of the plus (G0) to the missing middle segment of the left digit (A2).  \nThis changes the left number from **9** to **8**, and the operator from **+** to **−**, giving **8 − 8 = 0**, which is correct.\n\n\\boxed{{Move(G0, A2)}}"
+  },
+  {
+    "id": "00040055",
+    "level": 1,
+    "problem": "5+5=5",
+    "image": "level1/00040055_5+5=5.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 4 = 9",
+        "moves": [
+          "Move(B1, B2)",
+          "Move(B4, C2)"
+        ]
+      },
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(A1, A2)",
+          "Move(A4, C2)"
+        ]
+      },
+      {
+        "solution": "5 - 5 = 0",
+        "moves": [
+          "Move(G0, C2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "5 - 0 = 5",
+        "moves": [
+          "Move(G0, B2)",
+          "Move(B0, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "B2",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "A4"
+          ],
+          "place": [
+            "A2",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B0"
+          ],
+          "place": [
+            "B2",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the left digit **9** into **3** by removing its upper-left segment, and use that matchstick to turn the middle digit **8** into **9** by adding the missing upper-left segment. This changes **9 + 8 = 9** into **3 + 9 = 9**, which is correct.\n\n\\boxed{{Move(A6, B6)}}"
+  },
+  {
+    "id": "00046077",
+    "level": 1,
+    "problem": "5-1=0",
+    "image": "level1/00046077_5-1=0.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 1 = 5",
+        "moves": [
+          "Move(C2, A5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C2",
+            "C5"
+          ],
+          "place": [
+            "A5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the left digit **9** into **8** by adding its missing lower-left segment. Move the **middle segment** of the **8** (B0) to the **lower-left segment** of the **9** (A5). This changes the equation from **9 + 8 = 0** to **8 + 0 = 8**, which is correct.\n\n\\boxed{{Move(B0, A5)}}"
+  },
+  {
+    "id": "00046432",
+    "level": 1,
+    "problem": "5-9=4",
+    "image": "level1/00046432_5-9=4.png",
+    "solution_num": [
+      1,
+      3
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "9 - 5 = 4",
+        "moves": [
+          "Move(B2, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 2 = 4",
+        "moves": [
+          "Move(B3, A5)",
+          "Move(B6, B5)"
+        ]
+      },
+      {
+        "solution": "9 - 8 = 1",
+        "moves": [
+          "Move(C0, A2)",
+          "Move(C6, B5)"
+        ]
+      },
+      {
+        "solution": "8 - 4 = 4",
+        "moves": [
+          "Move(B1, A2)",
+          "Move(B4, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "B2",
+          "place": "A2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B3",
+            "B6"
+          ],
+          "place": [
+            "A5",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "C0",
+            "C6"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the left digit **9** into **8** by adding the missing lower-left segment, and turn the middle digit **8** into **9** by removing its lower-left segment. This is done by moving the matchstick from **B5** to **A5**, yielding **8 − 9 = −1**, which is correct.\n\n\\boxed{{Move(B5, A5)}}"
+  },
+  {
+    "id": "00049613",
+    "level": 1,
+    "problem": "6+0=3",
+    "image": "level1/00049613_6+0=3.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 0 = 6",
+        "moves": [
+          "Move(G0, C5)",
+          "Move(C2, C6)"
+        ]
+      },
+      {
+        "solution": "6 + 3 = 9",
+        "moves": [
+          "Move(B5, B0)",
+          "Move(B6, C6)"
+        ]
+      },
+      {
+        "solution": "9 - 0 = 9",
+        "moves": [
+          "Move(A5, A2)",
+          "Move(G0, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "B6"
+          ],
+          "place": [
+            "B0",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "G0"
+          ],
+          "place": [
+            "A2",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the left digit **9** into **7** by removing its middle segment (A0). Use that matchstick to add the missing middle segment of the right digit **0** (C0), turning it into **8**. The equation becomes **7 + 1 = 8**, which is valid.\n\n\\[\n\\boxed{{Move(A0, C0)}}\n\\]"
+  },
+  {
+    "id": "00049719",
+    "level": 1,
+    "problem": "6+2=6",
+    "image": "level1/00049719_6+2=6.png",
+    "solution_num": [
+      1,
+      3
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "8 - 2 = 6",
+        "moves": [
+          "Move(G0, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 3 = 8",
+        "moves": [
+          "Move(A5, B3)",
+          "Move(B5, C2)"
+        ]
+      },
+      {
+        "solution": "6 + 3 = 9",
+        "moves": [
+          "Move(B5, B3)",
+          "Move(C5, C2)"
+        ]
+      },
+      {
+        "solution": "6 - 0 = 6",
+        "moves": [
+          "Move(G0, B3)",
+          "Move(B0, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "G0",
+          "place": "A2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "B5"
+          ],
+          "place": [
+            "B3",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "C5"
+          ],
+          "place": [
+            "B3",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B0"
+          ],
+          "place": [
+            "B3",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the equation with one move, turn the leftmost digit **6** into **8** by adding the missing upper-right segment, and simultaneously turn the middle digit **8** into **2** by removing its upper-left segment. This is done by moving the matchstick from **B6** to **A2**, yielding **8 + 2 = 10**, which is correct.\n\n\\boxed{{Move(B6, A2)}}"
+  },
+  {
+    "id": "00059919",
+    "level": 1,
+    "problem": "7+3=0",
+    "image": "level1/00059919_7+3=0.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "7 + 2 = 9",
+        "moves": [
+          "Move(B3, B5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B3",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the left digit from **7** into **1** by removing its top segment (A1), and use that moved matchstick to add the missing middle segment (C0) to the right digit, turning **0** into **8**. The equation becomes **1 + 8 = 8**, which is valid.\n\n\\boxed{{Move(A1, C0)}}"
+  },
+  {
+    "id": "00075585",
+    "level": 1,
+    "problem": "8-9=3",
+    "image": "level1/00075585_8-9=3.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 6 = 2",
+        "moves": [
+          "Move(B2, B5)",
+          "Move(C3, C5)"
+        ]
+      },
+      {
+        "solution": "9 - 9 = 0",
+        "moves": [
+          "Move(A5, C5)",
+          "Move(C0, C6)"
+        ]
+      },
+      {
+        "solution": "6 + 3 = 9",
+        "moves": [
+          "Move(A2, G0)",
+          "Move(B6, C6)"
+        ]
+      },
+      {
+        "solution": "9 - 0 = 9",
+        "moves": [
+          "Move(A5, B5)",
+          "Move(B0, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "C3"
+          ],
+          "place": [
+            "B5",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "C0"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B6"
+          ],
+          "place": [
+            "G0",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "B0"
+          ],
+          "place": [
+            "B5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid, change the middle digit **8** into **0** by removing its middle segment. Then use that removed matchstick to turn the **=** sign into **≠**, yielding a true statement: **8 ≠ 0**.\n\n\\boxed{{Move(B0, G0)}}"
+  },
+  {
+    "id": "00080024",
+    "level": 1,
+    "problem": "9+5=0",
+    "image": "level1/00080024_9+5=0.png",
+    "solution_num": [
+      2,
+      3
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "3 + 5 = 8",
+        "moves": [
+          "Move(A6, C0)"
+        ]
+      },
+      {
+        "solution": "9 - 9 = 0",
+        "moves": [
+          "Move(G0, B2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 6 = 0",
+        "moves": [
+          "Move(A2, A5)",
+          "Move(G0, B5)"
+        ]
+      },
+      {
+        "solution": "5 + 3 = 8",
+        "moves": [
+          "Move(A2, B2)",
+          "Move(B6, C0)"
+        ]
+      },
+      {
+        "solution": "3 + 6 = 9",
+        "moves": [
+          "Move(A6, B5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "A6",
+          "place": "C0"
+        },
+        {
+          "pick": "G0",
+          "place": "B2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "G0"
+          ],
+          "place": [
+            "A5",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B6"
+          ],
+          "place": [
+            "B2",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **0** on the left into a **9** by adding the missing middle segment. Move the matchstick from the lower-left segment of the left digit (which is not needed for a 9) to the middle segment.\n\n\\[\n90 + 90 = 180 \\quad \\text{(true)}\n\\]\n\n\\boxed{{Move(A5, A0)}}"
+  },
+  {
+    "id": "00080088",
+    "level": 1,
+    "problem": "9+6=2",
+    "image": "level1/00080088_9+6=2.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "8 - 6 = 2",
+        "moves": [
+          "Move(G0, A5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 6 = 9",
+        "moves": [
+          "Move(A6, C3)",
+          "Move(C5, C6)"
+        ]
+      },
+      {
+        "solution": "3 + 5 = 8",
+        "moves": [
+          "Move(A6, C3)",
+          "Move(B5, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "G0",
+          "place": "A5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A6",
+            "C5"
+          ],
+          "place": [
+            "C3",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "B5"
+          ],
+          "place": [
+            "C3",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the **left digit** from **9** into **8** by adding the missing lower-left segment, and turn the **right digit** from **8** into **7** by removing its lower-left segment. This is done by moving the matchstick at **C6** (right digit’s upper-left) to **A5** (left digit’s lower-left). Then the equation becomes **8 + 1 = 7**, which is not correct—so instead we move **C6** to **C5**? (But C5 is already present.) The only single move that changes equality correctly is to change **+** into **=** or digits accordingly. Here, using **two moves** we can make **9 + 1 = 8** into **9 - 1 = 8** by moving one stick in the plus sign to form a minus, and using the freed stick to fix digit? Actually only one stick needed: move the **vertical** matchstick of the plus (G0 vertical) away, leaving a **minus**. Then it becomes **9 - 1 = 8**, which is correct.\n\n\\boxed{{Move(G0, B2)}}"
+  },
+  {
+    "id": "00080237",
+    "level": 1,
+    "problem": "9+9=0",
+    "image": "level1/00080237_9+9=0.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "0 + 0 = 0",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(B0, B5)"
+        ]
+      },
+      {
+        "solution": "0 + 9 = 9",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(C5, C0)"
+        ]
+      },
+      {
+        "solution": "9 + 0 = 9",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "B0"
+          ],
+          "place": [
+            "A5",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "C5"
+          ],
+          "place": [
+            "A5",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "The displayed equation is **9 + 9 = 0** (each “9” is missing the lower-left segment; the “0” is missing the middle segment).  \nMove the **middle** matchstick from the rightmost digit (segment **C0**) to the **lower-left** segment of the leftmost digit (segment **A5**). This turns the leftmost **9 → 8** and the rightmost **0 → 0** becomes **0 without middle → 0?** Actually adding the middle to 0 makes it **8**, so the right side becomes **8**. Thus the equation becomes **8 + 9 = 17**? Not possible with single digit.  \nInstead, move **C4** (bottom of the rightmost 0) to **C0** (middle). This turns **0 → 9** on the right side, making the equation **9 + 9 = 9**, still false.  \nCorrect fix in **two moves**:  \n- Move **A2** (upper-right of left 9) to **A5** (lower-left) to make left digit **9 → 6**.  \n- Move **C2** (upper-right of right 0) to **C0** (middle) to make right digit **0 → 6**.  \nNow the equation reads **6 + 9 = 6**, still false.\n\n\\boxed{Move(A2, A5), Move(C2, C0)}"
+  },
+  {
+    "id": "00086972",
+    "level": 1,
+    "problem": "9-3=9",
+    "image": "level1/00086972_9-3=9.png",
+    "solution_num": [
+      2,
+      4
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "9 - 3 = 6",
+        "moves": [
+          "Move(C2, C5)"
+        ]
+      },
+      {
+        "solution": "8 - 3 = 5",
+        "moves": [
+          "Move(C2, A5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "0 + 3 = 3",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(C6, G0)"
+        ]
+      },
+      {
+        "solution": "8 - 5 = 3",
+        "moves": [
+          "Move(B2, A5)",
+          "Move(C6, B6)"
+        ]
+      },
+      {
+        "solution": "3 + 3 = 6",
+        "moves": [
+          "Move(A6, G0)",
+          "Move(C2, C5)"
+        ]
+      },
+      {
+        "solution": "9 - 6 = 3",
+        "moves": [
+          "Move(B2, B5)",
+          "Move(C6, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "C2",
+          "place": "C5"
+        },
+        {
+          "pick": "C2",
+          "place": "A5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C6"
+          ],
+          "place": [
+            "A5",
+            "G0"
+          ]
+        },
+        {
+          "pick": [
+            "B2",
+            "C6"
+          ],
+          "place": [
+            "A5",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C2"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B2",
+            "C6"
+          ],
+          "place": [
+            "B5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the left digit **9** into **3** by moving the lower-left vertical matchstick (**A5**) to the missing upper-right segment (**A2**). Then the display reads **3 − 8 = 3**, which is valid.\n\n\\boxed{{Move(A5, A2)}}"
+  },
+  {
+    "id": "00087190",
+    "level": 1,
+    "problem": "9-7=5",
+    "image": "level1/00087190_9-7=5.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 7 = 2",
+        "moves": [
+          "Move(C3, C2)",
+          "Move(C6, C5)"
+        ]
+      },
+      {
+        "solution": "5 + 1 = 6",
+        "moves": [
+          "Move(A2, G0)",
+          "Move(B1, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C3",
+            "C6"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B1"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left digit **9** (A) into **3** by moving its upper-left vertical matchstick (A6) to the lower-left vertical position (A5). This turns **9** into **3**, giving **3 + 8 = 11**, which is correct.\n\n\\boxed{{Move(A6, A5)}}"
+  },
+  {
+    "id": "00000287",
+    "level": 2,
+    "problem": "0+7=10",
+    "image": "level2/00000287_0+7=10.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 7 = 15",
+        "moves": [
+          "Move(D2, A0)",
+          "Move(D5, D0)"
+        ]
+      },
+      {
+        "solution": "9 + 7 = 16",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(D2, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "D2",
+            "D5"
+          ],
+          "place": [
+            "A0",
+            "D0"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "D2"
+          ],
+          "place": [
+            "A0",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the left digit **A** from **0** into **9** by moving the lower-left vertical matchstick (**A5**) to the middle segment (**A0**). This yields **9 + 2 = 11**, which is true.\n\n\\boxed{{Move(A5, A0)}}"
+  },
+  {
+    "id": "00005199",
+    "level": 2,
+    "problem": "0-9=19",
+    "image": "level2/00005199_0-9=19.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 5 = 13",
+        "moves": [
+          "Move(B2, G0)",
+          "Move(D6, A0)"
+        ]
+      },
+      {
+        "solution": "6 + 9 = 15",
+        "moves": [
+          "Move(A2, G0)",
+          "Move(D2, A0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D6"
+          ],
+          "place": [
+            "G0",
+            "A0"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "D2"
+          ],
+          "place": [
+            "G0",
+            "A0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with one move, change the leftmost digit **0** into **9** by moving its lower-left segment (**A5**) to the middle segment (**A0**). This turns **0 + 8 = 0** into **9 + 8 = 17**, which is true.\n\n\\boxed{{Move(A5, A0)}}"
+  },
+  {
+    "id": "00014483",
+    "level": 2,
+    "problem": "1-81=9",
+    "image": "level2/00014483_1-81=9.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 - 01 = 3",
+        "moves": [
+          "Move(B0, A0)",
+          "Move(D6, A6)"
+        ]
+      },
+      {
+        "solution": "7 - 01 = 6",
+        "moves": [
+          "Move(B0, A1)",
+          "Move(D2, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D6"
+          ],
+          "place": [
+            "A0",
+            "A6"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "D2"
+          ],
+          "place": [
+            "A1",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with one move, turn the **leftmost 7** into a **9** by adding its missing upper-left segment. Take the unused vertical match at **G0** and place it at **A6**. The equation becomes **9 + 8 = 17**, which is true.\n\n\\[\n\\boxed{{Move(G0, A6)}}\n\\]"
+  },
+  {
+    "id": "00019376",
+    "level": 2,
+    "problem": "2+87=6",
+    "image": "level2/00019376_2+87=6.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "2 + 03 = 5",
+        "moves": [
+          "Move(B0, C0)",
+          "Move(D5, C4)"
+        ]
+      },
+      {
+        "solution": "2 + 04 = 6",
+        "moves": [
+          "Move(B0, C0)",
+          "Move(C1, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D5"
+          ],
+          "place": [
+            "C0",
+            "C4"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C1"
+          ],
+          "place": [
+            "C0",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the leftmost digit from **2** to **3** by moving the bottom-left vertical matchstick (A5) to the missing middle-right vertical segment (A3). This turns **2 + 8 = 8** into **3 + 8 = 8**, which is still false—so we also change the operator from **+** to **−** by moving the vertical matchstick of the plus (G0) away, leaving a minus. The resulting equation is **3 − 8 = 8**, still false; instead, we use the moved stick to complete the left digit while removing it from plus makes it minus, giving **3 − 8 = −5** is not possible here.\n\nBetter: make the left digit **0** and keep plus: move A2 (top-right) to A5 (bottom-left) to turn **2** into **6**? That won’t help.\n\nCorrect fix in two moves:\n- Turn the **left 2** into **0** by moving the middle segment A0 to A5 (bottom-left), and\n- Turn the **8** (right digit) into **2** by moving D5 (bottom-left) to D0 (middle).\n\nThis yields **0 + 8 = 2**, false.\n\nSo the valid correction is:\n- Turn left **2** into **3** (A5 → A3),\n- Turn right **8** into **9** by removing its bottom-left segment (D5) and placing it as the missing segment for a **9**? But 9 already has all except bottom-left—so just remove D5 to make 9. Then we get **3 + 8 = 9** which is true.\n\n\\boxed{{Move(A5, A3), Move(D5, C0)}}"
+  },
+  {
+    "id": "00028153",
+    "level": 2,
+    "problem": "3+89=3",
+    "image": "level2/00028153_3+89=3.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 06 = 9",
+        "moves": [
+          "Move(B0, C5)",
+          "Move(C2, D6)"
+        ]
+      },
+      {
+        "solution": "3 + 05 = 8",
+        "moves": [
+          "Move(B0, D5)",
+          "Move(C2, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "D6"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C2"
+          ],
+          "place": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid with one move, change the leftmost digit **9** into **3** by removing its upper-left segment **A6**. Then place that matchstick onto the lone plus sign to turn it into a **4** by adding the missing top segment. This yields the correct equation: **3 + 0 = 3**.\n\n\\boxed{{Move(A6, G1)}}"
+  },
+  {
+    "id": "00037238",
+    "level": 2,
+    "problem": "4-2=63",
+    "image": "level2/00037238_4-2=63.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 - 2 = 02",
+        "moves": [
+          "Move(C0, C2)",
+          "Move(D3, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C0",
+            "D3"
+          ],
+          "place": [
+            "C2",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the leftmost **9** into a **3** by moving its upper-left vertical matchstick to the missing lower-right vertical segment. This changes **9 − 8 = 8** into **3 − 8 = −5**, which is true.\n\n\\[\n\\boxed{{Move(A6, A3)}}\\]"
+  },
+  {
+    "id": "00039989",
+    "level": 2,
+    "problem": "5+3=77",
+    "image": "level2/00039989_5+3=77.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 3 = 11",
+        "moves": [
+          "Move(C1, A2)",
+          "Move(D1, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C1",
+            "D1"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with at most two moves, change the left digit **9** into **8** by adding the missing lower-left segment, and change the right digit **0** into **6** by removing its upper-right segment. This yields the valid equation **8 + 0 = 8**.\n\n\\[\n\\boxed{{Move(B5, A5), Move(D2, B5)}}\n\\]"
+  },
+  {
+    "id": "00048321",
+    "level": 2,
+    "problem": "5-67=5",
+    "image": "level2/00048321_5-67=5.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 01 = 5",
+        "moves": [
+          "Move(B0, A5)",
+          "Move(C1, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C1"
+          ],
+          "place": [
+            "A5",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the **9** into an **8** by adding its missing bottom-left segment, and take that matchstick from the **plus sign** so it becomes a **minus sign**.  \nThis yields: **8 − 8 = 0**, which is correct.\n\n\\boxed{{Move(G0, B5)}}"
+  },
+  {
+    "id": "00049755",
+    "level": 2,
+    "problem": "6+2=79",
+    "image": "level2/00049755_6+2=79.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 2 = 10",
+        "moves": [
+          "Move(C1, A2)",
+          "Move(D0, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C1",
+            "D0"
+          ],
+          "place": [
+            "A2",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left digit from **9** to **8** by adding the missing lower-left segment, and change the right digit from **9** to **3** by removing its upper-left segment. This keeps all symbols legible and yields **8 + 3 = 11**, which is correct.\n\n\\boxed{{Move(B5, A5), Move(D6, B5)}}"
+  },
+  {
+    "id": "00068361",
+    "level": 2,
+    "problem": "8+1=57",
+    "image": "level2/00068361_8+1=57.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 + 1 = 07",
+        "moves": [
+          "Move(A2, C2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "8 - 1 = 07",
+        "moves": [
+          "Move(G0, C2)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "The displayed equation reads as **9 + 9 = 3** (A is 9, B is 9, C is “=”, D is 3), which is false.  \nMove the **middle segment** of the rightmost digit (D0). Removing D0 turns **3** into **7** (since 7 uses the top and the two right vertical segments), giving **9 + 9 = 7**, still false.  \nInstead, move the **top-right segment** of the first 9 (A2) to the missing **bottom-left segment** of the last digit (D5). This changes:\n- **A (9)** → **A becomes 5** (removing A2 from 9 yields 5)\n- **D (3)** → **D becomes 9** (adding D5 to 3 yields 9)\n\nNow the equation becomes **5 + 9 = 9**, still false.  \nSo we must use **two moves** to reach a valid equality: turn **9 + 9 = 3** into **8 + 9 = 17** is impossible with given symbols. The workable correction is:\n\n- Change the first **9** into **3** by moving its **top-left segment (A6)** to its **bottom-left segment (A5)**? That doesn’t change 9.\n- The consistent 2-move fix is: make it **9 + 3 = 12**? Not possible.\n\nA valid 2-move solution is:\n1) Move **B6** (top-left of the second 9) to **B5** (bottom-left) — this converts **9 → 6**.\n2) Move **D0** (middle of 3) to **D6** (top-left) — this converts **3 → 0**.\n\nResulting equation: **9 + 6 = 0** (still false).  \n\nGiven the constraints and the exact segment availability in the image, there is **no way to make the equation mathematically correct by moving only one or two matchsticks** while keeping all symbols as legible seven-segment digits and “+”/“=”.\n\n\\boxed{{\\text{No valid solution with 1 or 2 moves under the stated constraints.}}}"
+  },
+  {
+    "id": "00068454",
+    "level": 2,
+    "problem": "8+3=12",
+    "image": "level2/00068454_8+3=12.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 5 = 13",
+        "moves": [
+          "Move(B2, B6)",
+          "Move(D5, D3)"
+        ]
+      },
+      {
+        "solution": "6 + 6 = 12",
+        "moves": [
+          "Move(A2, B5)",
+          "Move(B2, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D5"
+          ],
+          "place": [
+            "B6",
+            "D3"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B2"
+          ],
+          "place": [
+            "B5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To correct the equation, change the left digit **9** into a **3** by moving its upper-left segment **B6** away. Place that matchstick onto the **middle segment of the right digit 0** (segment **C0**) to turn it into **8**. The equation becomes **3 = 8**, which is still false—so instead place it onto the **middle segment of the right digit 0** *and* simultaneously remove the **middle segment of the left digit 9**? That would exceed constraints.\n\nA valid 2-move fix is:\n- Turn the left **9** into **5** by moving its upper-right segment **B2** to the upper-left **B6** (so B2 off, B6 on).\n- Turn the right **0** into **6** by moving its upper-right segment **C2** to the middle **C0**.\n\nThis yields **5 = 6**, still false.\n\nA correct 1-move solution:\n- Move the middle match of the left digit (**B0**) to the vertical position to make the left digit **0** and the operator into **≠**? Not possible.\n\nGiven the provided configuration, no one- or two-matchstick move can make the statement mathematically true while keeping all symbols as standard seven-seg digits and a valid equality sign.\n\n\\boxed{{}}"
+  },
+  {
+    "id": "00068725",
+    "level": 2,
+    "problem": "8+9=18",
+    "image": "level2/00068725_8+9=18.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "8 + 8 = 16",
+        "moves": [
+          "Move(D2, B5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "D2",
+          "place": "B5"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the middle digit **9** into an **8** by adding its missing lower-left segment, and turn the left digit **8** into a **9** by removing its lower-left segment. This keeps the “=” sign unchanged and yields the valid equation **9 = 9**.\n\n\\boxed{{Move(A5, B5)}}"
+  },
+  {
+    "id": "00075370",
+    "level": 2,
+    "problem": "8-4=12",
+    "image": "level2/00075370_8-4=12.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 + 4 = 13",
+        "moves": [
+          "Move(A5, G0)",
+          "Move(D5, D3)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "D5"
+          ],
+          "place": [
+            "G0",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with two moves, turn the left digit **9** into **5** by moving its upper-right segment to the lower-left segment, and turn the right digit **9** into **3** by moving its lower-left segment to the upper-left segment. This yields **5 + 8 = 3**, which is still not correct numerically; however, with seven-segment constraints, the only valid correction in two moves is instead to make **9 + 8 = 17** by converting the right **9** into **7** and using the freed match to form the missing **1** next to it—matching the available standalone “1” position.\n\n\\[\n9 + 8 = 17\n\\]\n\n\\boxed{{Move(D4, G0), Move(D6, D4)}}"
+  },
+  {
+    "id": "00078214",
+    "level": 2,
+    "problem": "8-68=8",
+    "image": "level2/00078214_8-68=8.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 00 = 8",
+        "moves": [
+          "Move(B0, G0)",
+          "Move(C0, B2)"
+        ]
+      },
+      {
+        "solution": "0 + 08 = 8",
+        "moves": [
+          "Move(A0, G0)",
+          "Move(B0, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "G0",
+            "B2"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "B0"
+          ],
+          "place": [
+            "G0",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the left number **9** into **3** by moving its **upper-left** vertical matchstick (segment **B6**) to the missing **lower-right** vertical segment (**B3**). This turns **9** into **3**, yielding a true statement: **8 + 3 = 11**.\n\n\\boxed{{Move(B6, B3)}}"
+  },
+  {
+    "id": "00079635",
+    "level": 2,
+    "problem": "8-98=6",
+    "image": "level2/00079635_8-98=6.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 08 = 0",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(D0, D2)"
+        ]
+      },
+      {
+        "solution": "8 - 00 = 8",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(C0, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D0"
+          ],
+          "place": [
+            "B5",
+            "D2"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "B5",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with one move, turn the leftmost digit **A** from **8** into **9** by removing its lower-left segment **A5**, and use that matchstick to complete the missing vertical segment **G2** of the plus sign, turning it into a **+**.  \nThis yields a valid equation: **9 + 8 = 17**.\n\n\\boxed{{Move(A5, G2)}}"
+  },
+  {
+    "id": "00087105",
+    "level": 2,
+    "problem": "9-5=45",
+    "image": "level2/00087105_9-5=45.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 + 6 = 15",
+        "moves": [
+          "Move(C0, G0)",
+          "Move(C6, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C0",
+            "C6"
+          ],
+          "place": [
+            "G0",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the leftmost **9** into a **3** by moving its upper-left segment (A6) to the missing lower-right segment (A5). Then the equation becomes **3 − 9 = −6**, which is correct.\n\n\\boxed{{Move(A6, A5)}}"
+  },
+  {
+    "id": "00087279",
+    "level": 2,
+    "problem": "9-8=65",
+    "image": "level2/00087279_9-8=65.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 0 = 09",
+        "moves": [
+          "Move(B0, C2)",
+          "Move(C0, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the false equation **9 − 8 = 80** with one move, turn the **0** (rightmost digit) into a **6** by adding the missing lower-left segment. Take that matchstick from the **9** (leftmost digit): removing its lower-left segment turns **9** into **3**, and placing it onto the **0** adds the lower-left segment, turning **0** into **6**.  \nThis yields the correct equation: **3 − 8 = −5**? Wait—here the middle symbol is a minus and the result is two digits, so instead we make the equation **9 − 8 = 1** by changing **80** into **1** using two moves: remove the middle bar and bottom bar of the **8**? But we can’t remove sticks. A correct two-move fix is:\n\n- Move the upper-left segment of the **8** to the upper-right of the **0**: this changes **8 → 9** and **0 → 8**.\n- Then move the middle segment of the (new) **9** (the subtracted digit) away to make it **0**, and place it as the missing vertical in the **1** position? However there is no “1” digit.\n\nThe clean valid correction in **two moves** is:\n- Change **9 − 8 = 80** into **9 − 8 = 1** by turning **80** into **1** and making the leftover stick form a **+**? Not possible with given layout.\n\nA valid **one-move** correction is instead:\nMove one matchstick from the **8** to turn the minus into a plus, giving **9 + 8 = 80**? Still false.\n\nSo the actual valid correction is:\n- Move **A5** (lower-left segment of the left “9”) to **D5** (lower-left segment of the right “0”), turning **9 → 3** and **0 → 6**, giving **3 − 8 = −5** is not representable.\n\nGiven the constraints (no negative sign shown), the intended valid equation is:\n**9 − 8 = 1** by converting the right side from **80** to **10** with one move: move **D3** (lower-right segment of the rightmost 0) to **C2** (upper-right segment of the left 8) turning **0→?** and **8→?** doesn’t help.\n\nI will provide the only consistent segment-preserving arithmetic identity achievable in **two moves**:\n- Turn **9 − 8 = 80** into **9 − 3 = 6** by:\n  1) Move **B5** to **D2** (making 8→3 and 0→6)\n  2) Move **D0** to **C0** (making 80→6 and keeping result single digit)\n\n\\boxed{{Move(B5, B0), Move(D0, C0)}}"
+  },
+  {
+    "id": "00205731",
+    "level": 2,
+    "problem": "09+9=0",
+    "image": "level2/00205731_09+9=0.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "00 + 9 = 9",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(D5, D0)"
+        ]
+      },
+      {
+        "solution": "00 + 0 = 0",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "09 + 0 = 9",
+        "moves": [
+          "Move(C0, C5)",
+          "Move(D5, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D5"
+          ],
+          "place": [
+            "B5",
+            "D0"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "B5",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "C0",
+            "D5"
+          ],
+          "place": [
+            "C5",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left operand from **8** to **0** by removing its middle segment, and change **3** to **9** by adding that middle segment.\n\n- Move the middle matchstick of the first digit (A0) to the middle segment of the third digit (C0).\n- This yields **0 + 9 = 9**, which is correct.\n\n\\boxed{{Move(A0, C0)}}"
+  },
+  {
+    "id": "00945521",
+    "level": 2,
+    "problem": "68+7=3",
+    "image": "level2/00945521_68+7=3.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "08 + 1 = 9",
+        "moves": [
+          "Move(A0, A2)",
+          "Move(C1, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C1"
+          ],
+          "place": [
+            "A2",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the leftmost digit **9** into **8** by adding its missing upper-right segment, and turn the rightmost digit **9** into **3** by removing its upper-left segment. This preserves valid seven‑segment digits and makes the equation **8 + 1 = 3**? Wait: the middle digit is **1**, so we need **8 + 1 = 9** (true). So we must change the rightmost digit into **9**, not **3**. Instead, move the match from **D6** (upper-left of the rightmost 9) to **A2** (upper-right missing on the leftmost 9). That changes leftmost **9 → 8** and rightmost **9 → 3**, which would be **8 + 1 = 3** (false). Therefore, we should keep the rightmost as **9** and only fix the leftmost by sourcing a match from the **plus** sign: change **+** to **−** while adding the missing segment to make **9 → 8**, giving **8 − 1 = 9** (false).  \n\nCorrect fix in **two moves**:\n- Move **G0** (the vertical match of the plus sign) to **A2** to turn **9 → 8** and **+ → −**.\n- Then move **D6** to **G0** to restore **+** while turning the rightmost **9 → 3**, yielding **8 + 1 = 3** (still false).  \n\nGiven the constraints, the valid correction is:\n- Make left **9 → 8** (add A2),\n- Make right **9 → 9** unchanged,\n- Change **+ → +** unchanged,\nSo we need a spare match without breaking validity, which isn’t available.\n\nI can’t produce a mathematically correct equation with only one or two moves from the shown configuration without violating digit/operator validity."
+  },
+  {
+    "id": "00952319",
+    "level": 2,
+    "problem": "68-6=1",
+    "image": "level2/00952319_68-6=1.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "09 - 8 = 1",
+        "moves": [
+          "Move(A0, A2)",
+          "Move(B5, C2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "B5"
+          ],
+          "place": [
+            "A2",
+            "C2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the left number **8** into **9** by removing its lower-left segment, and use that matchstick to create the missing middle segment of the right number **0** so it becomes **8**. The equation becomes **9 − 1 = 8**, which is correct.\n\n\\[\n\\boxed{\\text{{Move(A5, D0)}}}\n\\]"
+  },
+  {
+    "id": "01040722",
+    "level": 2,
+    "problem": "75-9=5",
+    "image": "level2/01040722_75-9=5.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "15 - 9 = 6",
+        "moves": [
+          "Move(A1, D5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "13 - 8 = 5",
+        "moves": [
+          "Move(A1, B2)",
+          "Move(B6, C5)"
+        ]
+      },
+      {
+        "solution": "15 - 6 = 9",
+        "moves": [
+          "Move(A1, C5)",
+          "Move(C2, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "A1",
+          "place": "D5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A1",
+            "B6"
+          ],
+          "place": [
+            "B2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the left number **9** into **8** by adding the missing middle segment. Take the **lower-left** segment from the **3** (which turns it into **9**) and place it as the missing middle segment of the **9** (turning it into **8**).  \nThis yields **8 + 9 = 17**, which is valid.\n\n\\[\n\\boxed{{Move(A5,\\ A0)}}\n\\]"
+  },
+  {
+    "id": "01179327",
+    "level": 2,
+    "problem": "85-8=3",
+    "image": "level2/01179327_85-8=3.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "09 - 0 = 9",
+        "moves": [
+          "Move(A0, B2)",
+          "Move(C0, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C0"
+          ],
+          "place": [
+            "B2",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with one move, change the left addend from **8** to **9** by moving the **lower-left** segment of the first digit (A5) to the **upper-right** segment of the middle digit (B2). This turns **8** into **9**, and turns **2** into **3**, giving a true equation: **9 + 3 = 12**.\n\n\\boxed{{Move(A5, B2)}}"
+  },
+  {
+    "id": "01210610",
+    "level": 2,
+    "problem": "87-3=9",
+    "image": "level2/01210610_87-3=9.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "07 + 2 = 9",
+        "moves": [
+          "Move(A0, G0)",
+          "Move(C3, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C3"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the left digit **A** from **8** into **9** by removing its lower-left segment, and use that matchstick to add the missing left vertical segment on the middle digit **C**, turning **3** into **9**. The equation becomes **9 + 9 = 18**, which is true.\n\n\\boxed{{Move(A5, C6)}}"
+  },
+  {
+    "id": "01304088",
+    "level": 2,
+    "problem": "93-1=4",
+    "image": "level2/01304088_93-1=4.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "05 - 1 = 4",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(B2, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "B2"
+          ],
+          "place": [
+            "A5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, change the leftmost digit **9** into **8** by adding the missing lower-left segment. That missing segment is **A5** (currently empty), and we can supply it by moving the middle match from the rightmost digit **9** (segment **D0**) since **9** without its middle bar becomes **0**.  \nThis transforms the equation from **9 + 9 = 9** into **8 + 9 = 0**, which is mathematically correct in modulo-17 style? (Not intended). For standard arithmetic, we instead use the move to make **9 + 0 = 9**:\n\n- Move **D0** (middle segment of the rightmost 9) to **C6** (upper-left segment of the middle digit), turning the middle **9** into **0** while keeping the rightmost **9** as **9**.\n\n\\boxed{{Move(D0, C6)}}"
+  },
+  {
+    "id": "01393262",
+    "level": 2,
+    "problem": "99+5=0",
+    "image": "level2/01393262_99+5=0.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "09 - 9 = 0",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(A0, C2)"
+        ]
+      },
+      {
+        "solution": "03 + 5 = 8",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(B6, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "A0"
+          ],
+          "place": [
+            "A5",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "B6"
+          ],
+          "place": [
+            "A5",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the left digit from **9** to **3** by moving the upper-left segment (A6) to the missing lower-left segment (A5). Then change the right digit from **8** to **9** by removing its lower-left segment (D5) and placing it as the missing middle segment (D0). This yields a valid equation: **3 + 6 = 9**.\n\n\\boxed{{Move(A6, A5), Move(D5, D0)}}"
+  },
+  {
+    "id": "00024362",
+    "level": 3,
+    "problem": "3+21=48",
+    "image": "level3/00024362_3+21=48.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 37 = 40",
+        "moves": [
+          "Move(E0, B3)",
+          "Move(B5, C1)"
+        ]
+      },
+      {
+        "solution": "9 + 31 = 40",
+        "moves": [
+          "Move(E0, A6)",
+          "Move(B5, B3)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E0",
+            "B5"
+          ],
+          "place": [
+            "B3",
+            "C1"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "B5"
+          ],
+          "place": [
+            "A6",
+            "B3"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the leftmost **9** into a **3** by moving its upper-left segment **B6** to the lower-left segment **B5**. This changes **9 − 3 = 9** into **3 − 3 = 0**, which is valid.\n\n\\boxed{{Move(B6, B5)}}"
+  },
+  {
+    "id": "00034804",
+    "level": 3,
+    "problem": "4+52=95",
+    "image": "level3/00034804_4+52=95.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "4 + 52 = 56",
+        "moves": [
+          "Move(D2, E5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 52 = 55",
+        "moves": [
+          "Move(A6, A1)",
+          "Move(D2, A4)"
+        ]
+      },
+      {
+        "solution": "4 + 32 = 36",
+        "moves": [
+          "Move(B6, E5)",
+          "Move(D6, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "D2",
+          "place": "E5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A6",
+            "D2"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        },
+        {
+          "pick": [
+            "B6",
+            "D6"
+          ],
+          "place": [
+            "E5",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with two moves:\n- Turn the **left “2”** into a **“3”** by moving its bottom-left segment **B5** to the middle-right segment **B2**.\n- Turn the **right “0”** into a **“6”** by moving its top-right segment **E2** to the middle-left segment **E6**.\n\nThis changes the equation from **20 + 20 = 00** to **30 + 20 = 50**, which is correct.\n\n\\[\n\\boxed{{Move(B5, B2), Move(E2, E6)}}\n\\]"
+  },
+  {
+    "id": "00041511",
+    "level": 3,
+    "problem": "5+23=40",
+    "image": "level3/00041511_5+23=40.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 35 = 40",
+        "moves": [
+          "Move(B5, B3)",
+          "Move(C2, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "C2"
+          ],
+          "place": [
+            "B3",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the **second digit (B)** from **5** into **3** by moving its **upper-left vertical** matchstick (B6) to the **lower-right vertical** position (B3). This changes the displayed equation from **“5 + 5 = 8”** to **“5 + 3 = 8”**, which is correct.\n\n\\[\n\\boxed{{Move(B6, B3)}}\n\\]"
+  },
+  {
+    "id": "00048210",
+    "level": 3,
+    "problem": "5-63=90",
+    "image": "level3/00048210_5-63=90.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 53 = 58",
+        "moves": [
+          "Move(B5, G0)",
+          "Move(D2, E0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "D2"
+          ],
+          "place": [
+            "G0",
+            "E0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "The equation shown is **8 + 8 = 8** (incorrect).  \nMove the **middle segment** of the rightmost **8** (label **E0**) to the **bottom-left segment** of that same digit (label **E5**). This changes the rightmost digit from **8** to **6**, yielding **8 + 8 = 16**, which is correct.\n\n\\boxed{{Move(E0, E5)}}"
+  },
+  {
+    "id": "00061243",
+    "level": 3,
+    "problem": "7+24=51",
+    "image": "level3/00061243_7+24=51.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "7 + 24 = 31",
+        "moves": [
+          "Move(D6, D2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "D6",
+          "place": "D2"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid with two moves, turn the left number **9** into **3** and turn the result **6** into **8**:\n\n- Move **A6** (top-left of the first digit) to **A3** (bottom-right of the first digit): this changes **9 → 3**.\n- Move one “=” stick (either of the two unlabeled horizontal matchsticks) to **E0** (middle segment of the last digit): this changes **6 → 8** while keeping a single “=” sign.\n\n\\boxed{{Move(A6, A3), Move(=top, E0)}}"
+  },
+  {
+    "id": "00079328",
+    "level": 3,
+    "problem": "8-91=93",
+    "image": "level3/00079328_8-91=93.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 51 = 59",
+        "moves": [
+          "Move(B2, G0)",
+          "Move(D2, E6)"
+        ]
+      },
+      {
+        "solution": "8 + 31 = 39",
+        "moves": [
+          "Move(B6, G0)",
+          "Move(D6, E6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D2"
+          ],
+          "place": [
+            "G0",
+            "E6"
+          ]
+        },
+        {
+          "pick": [
+            "B6",
+            "D6"
+          ],
+          "place": [
+            "G0",
+            "E6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with one move, turn the **“9”** into a **“3”** by removing its upper-left vertical matchstick. Move that matchstick to the missing upper-left segment of the **“0”** to turn it into an **“8”**.  \nThis changes **9 + 0 = 0** into **3 + 8 = 0**, which is still not correct—so instead, make the rightmost **“0”** into an **“8”** as well, yielding **9 + 0 = 8**? Not possible in one move.  \nWith **two moves**, we can make a valid equation: convert **9 + 0 = 0** into **9 − 0 = 9** by changing **+** to **−** and changing the last **0** to **9**.\n\n- Move one match from the vertical of the **plus** to remove the vertical stroke, leaving a **minus**.\n- Use that moved match to add the missing middle segment to the last **0**, turning it into **9**.\n\n\\[\n9 - 0 = 9\n\\]\n\n\\boxed{{Move(G0, E0), Move(D0, E0)}}"
+  },
+  {
+    "id": "00205563",
+    "level": 3,
+    "problem": "09+6=84",
+    "image": "level3/00205563_09+6=84.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "03 + 6 = 09",
+        "moves": [
+          "Move(B6, E1)",
+          "Move(D0, E4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B6",
+            "D0"
+          ],
+          "place": [
+            "E1",
+            "E4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid, change the leftmost number **9** into **8** by adding its missing middle segment, and take that matchstick from the **1** (which then becomes **7** by removing its lower-left segment). This keeps all symbols as valid seven-segment digits and yields a true equation:\n\n- Move **B5** (the lower-left segment of the “1”) to **A0** (the middle segment of the “9”).\n- Result: **8 + 7 = 15**.\n\n\\boxed{{Move(B5, A0)}}"
+  },
+  {
+    "id": "00402383",
+    "level": 3,
+    "problem": "26+2=29",
+    "image": "level3/00402383_26+2=29.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "26 + 3 = 29",
+        "moves": [
+          "Move(C5, C3)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "25 + 3 = 28",
+        "moves": [
+          "Move(B5, E5)",
+          "Move(C5, C3)"
+        ]
+      },
+      {
+        "solution": "28 - 2 = 26",
+        "moves": [
+          "Move(G0, E5)",
+          "Move(E2, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "C5",
+          "place": "C3"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "C5"
+          ],
+          "place": [
+            "E5",
+            "C3"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "E2"
+          ],
+          "place": [
+            "E5",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the leftmost **8** into **6** by removing its upper-right segment, and use that removed matchstick to turn the **3** into a **9** by adding the missing upper-left segment. This yields **60 + 9 = 69**, which is valid.\n\n\\[\n\\boxed{{Move(A2,\\ C6)}}\n\\]"
+  },
+  {
+    "id": "00471089",
+    "level": 3,
+    "problem": "31-4=97",
+    "image": "level3/00471089_31-4=97.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "61 - 4 = 57",
+        "moves": [
+          "Move(A2, A5)",
+          "Move(D2, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "D2"
+          ],
+          "place": [
+            "A5",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the leftmost digit **9** into **0** by moving its middle segment away, and use that moved matchstick to turn the final digit **0** into **8** by adding its missing middle segment. This changes **9 + 6 = 0** into **0 + 6 = 8**, which is correct.\n\n\\boxed{{Move(A0, E0)}}"
+  },
+  {
+    "id": "00494862",
+    "level": 3,
+    "problem": "33+89=7",
+    "image": "level3/00494862_33+89=7.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "93 - 86 = 7",
+        "moves": [
+          "Move(G0, A6)",
+          "Move(D2, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "D2"
+          ],
+          "place": [
+            "A6",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with two moves, turn the leftmost **9** into a **3** (remove its upper-left segment) and turn the rightmost **0** into an **8** (add that same segment to its upper-left).  \nThis changes **90 + 68 = 00** into **30 + 68 = 98**, which is correct.\n\n\\boxed{{Move(A6, E6), Move(E0, E0)}}"
+  },
+  {
+    "id": "00530671",
+    "level": 3,
+    "problem": "36+20=9",
+    "image": "level3/00530671_36+20=9.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "38 - 29 = 9",
+        "moves": [
+          "Move(G0, B2)",
+          "Move(D5, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "D5"
+          ],
+          "place": [
+            "B2",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the **“+”** into a **“×”** by moving one matchstick: take the vertical match from the plus (G0) and place it to create the missing lower-left vertical segment of the middle digit **C**, turning **C = 9** into **C = 8**. Then the equation becomes **9 × 8 = 72**, which is true.\n\n\\boxed{{Move(G0, C5)}}"
+  },
+  {
+    "id": "00562419",
+    "level": 3,
+    "problem": "38+75=5",
+    "image": "level3/00562419_38+75=5.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "80 - 75 = 5",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(B0, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "B0"
+          ],
+          "place": [
+            "A5",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with **one move**, turn the **“+”** into a **“−”** by removing its **vertical** matchstick. The displayed equation is **8 + 0 = 9**; changing **+** to **−** yields **8 − 0 = 8**, which is mathematically valid while keeping all digits legible.\n\n\\boxed{{Move(G0, C0)}}"
+  },
+  {
+    "id": "00599437",
+    "level": 3,
+    "problem": "41+9=34",
+    "image": "level3/00599437_41+9=34.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "31 + 3 = 34",
+        "moves": [
+          "Move(A6, A1)",
+          "Move(C6, A4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A6",
+            "C6"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with one move, change the leftmost **9** into a **3** by moving its **upper-left** vertical matchstick to the missing **lower-left** vertical position. This turns **9 − 7 = 8** into **3 − 7 = 8**, which is still false—so we instead use that move to turn **9** into **8** (by adding the missing lower-left segment) and simultaneously remove the upper-left segment (so the stick must be relocated, not duplicated). This yields **8 − 7 = 8** (false). Therefore we must correct the operator: turn the **minus** into a **plus** by moving one stick from the first digit.\n\nMove **A6** (upper-left segment of the first digit) to **G0** (vertical segment of the plus sign), converting the left digit from **9** to **3**, and the operator from **+** to **−**, giving **3 − 7 = 8** (false). So we need two moves:\n\n1) Turn the **7** into **1** by removing its top segment and placing it as the missing lower-left segment of the first digit to make it **8**.  \n2) Change the **minus** into a **plus** by moving the removed segment appropriately is not possible with the same stick, so instead convert the **8** on the right into **2** while keeping equality.\n\nA consistent valid fix in **two moves** is:\n- Make the middle digit **7 → 1** by moving **C1** away.\n- Use that moved matchstick to change the operator **− → +** by placing it as **G0**.\n\nThen the equation becomes **9 + 1 = 10**? But right digit is **8**, not 10.\n\nGiven the constraints and available segments, the valid correction is:\n\n\\[\n9 - 3 = 6\n\\]\n\nDo this by:\n- Move **C0** (middle horizontal of the 7) to **C5** to turn **7 → 3**.\n- Move **E0** (middle horizontal of the 8) to **E6** to turn **8 → 6**.\n\nSo the corrected equation reads **9 − 3 = 6**.\n\n\\boxed{{Move(C0, C5), Move(E0, E6)}}"
+  },
+  {
+    "id": "00727809",
+    "level": 3,
+    "problem": "52-2=53",
+    "image": "level3/00727809_52-2=53.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "55 - 2 = 53",
+        "moves": [
+          "Move(B2, B3)",
+          "Move(B5, B6)"
+        ]
+      },
+      {
+        "solution": "52 + 2 = 54",
+        "moves": [
+          "Move(E1, G0)",
+          "Move(E4, E6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "B5"
+          ],
+          "place": [
+            "B3",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "E1",
+            "E4"
+          ],
+          "place": [
+            "G0",
+            "E6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the **“6”** (digit C) into an **“8”** by adding its missing upper-left vertical segment, and take that matchstick from the **“8”** (digit B) to turn it into a **“0”** (removing its middle segment).  \nThis transforms the equation from **88 − 6 = 80** into the valid **80 − 8 = 72**.\n\n\\[\n\\boxed{{Move(B0, C6), Move(B6, D3)}}\n\\]"
+  },
+  {
+    "id": "00767333",
+    "level": 3,
+    "problem": "55-06=0",
+    "image": "level3/00767333_55-06=0.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "56 - 56 = 0",
+        "moves": [
+          "Move(C2, B5)",
+          "Move(C5, C0)"
+        ]
+      },
+      {
+        "solution": "05 - 05 = 0",
+        "moves": [
+          "Move(A0, A2)",
+          "Move(D5, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C2",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "D5"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, change the leftmost digit **9** into **8** by adding the missing lower-left segment. That segment can be taken from the **middle bar of the 9** in the second number (turning that **9** into **0**). The equation becomes **8 + 0 = 8**, which is correct.\n\n\\[\n\\boxed{\\text{Move(B0, A5)}}\n\\]"
+  },
+  {
+    "id": "00819041",
+    "level": 3,
+    "problem": "59+2=94",
+    "image": "level3/00819041_59+2=94.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "96 - 2 = 94",
+        "moves": [
+          "Move(G0, A2)",
+          "Move(B2, B5)"
+        ]
+      },
+      {
+        "solution": "92 + 2 = 94",
+        "moves": [
+          "Move(B3, A2)",
+          "Move(B6, B5)"
+        ]
+      },
+      {
+        "solution": "89 + 2 = 91",
+        "moves": [
+          "Move(E0, A2)",
+          "Move(E6, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "B2"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "B3",
+            "B6"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "E6"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid, turn the leftmost **9** into a **3** (remove its upper-left segment) and turn the rightmost **0** into a **6** (add that same upper-left segment). This preserves legible digits and fixes the arithmetic:\n- Original: **9 + 9 = 0** (false)\n- After move: **3 + 9 = 6** (true)\n\n\\boxed{{Move(A6, E6)}}"
+  },
+  {
+    "id": "00932744",
+    "level": 3,
+    "problem": "67+9=19",
+    "image": "level3/00932744_67+9=19.png",
+    "solution_num": [
+      0,
+      5
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "07 + 8 = 15",
+        "moves": [
+          "Move(E2, A2)",
+          "Move(A0, C5)"
+        ]
+      },
+      {
+        "solution": "07 + 9 = 16",
+        "moves": [
+          "Move(E2, E5)",
+          "Move(A0, A2)"
+        ]
+      },
+      {
+        "solution": "61 + 9 = 70",
+        "moves": [
+          "Move(E0, E5)",
+          "Move(B1, D1)"
+        ]
+      },
+      {
+        "solution": "67 + 3 = 70",
+        "moves": [
+          "Move(E0, E5)",
+          "Move(C6, D1)"
+        ]
+      },
+      {
+        "solution": "67 + 6 = 73",
+        "moves": [
+          "Move(E6, C5)",
+          "Move(C2, D1)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E2",
+            "A0"
+          ],
+          "place": [
+            "A2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "E2",
+            "A0"
+          ],
+          "place": [
+            "E5",
+            "A2"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "B1"
+          ],
+          "place": [
+            "E5",
+            "D1"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "C6"
+          ],
+          "place": [
+            "E5",
+            "D1"
+          ]
+        },
+        {
+          "pick": [
+            "E6",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **0** on the left (digit **C**) into a **6** by adding the missing upper-left segment, and use that matchstick taken from the **8** (digit **A**) without breaking legibility.\n\n- Move matchstick **A1** (top segment of the leftmost 8) to **C5** (missing lower-left/upper-left? actually C5 is the lower-left; the missing for 0→6 is the lower-left, and in the figure C5 is dashed). This changes:\n  - **A**: 8 → 6 (removing the top segment from 8 yields 6 in this labeling set, since other segments remain to display 6)\n  - **C**: 0 → 6 (adding C5 completes 6)\n\nResulting equation: **6 + 6 = 0** is still false.  \nSo instead, make **C** into **8** and **E** into **0** with two moves to get **8 + 8 = 16**? Not possible here.\n\nCorrect two-move fix:\n- Change **C** from **0** to **9** by moving **C5** away and adding **C1**? Not available.\n\nGiven the segment availability, the valid correction is:\n\n\\[\n8 + 0 = 8\n\\]\n\nDo this by moving one matchstick from the **rightmost 0** (digit **E**) to turn it into an **8**? That would not.\n\n**Valid one-move correction:**\nMove the middle segment from the leftmost **8** to the plus sign to turn “+” into “−”, making:\n\n\\[\n8 - 0 = 8\n\\]\n\nThis is achieved by moving **A0** (the middle segment of A) to the vertical segment of the plus sign (label **G0** is the horizontal; the vertical is present). But the plus sign’s vertical segment isn’t labeled; only **G0** is shown as the horizontal. So we instead remove the vertical from the plus by moving it onto the unused horizontal to form “−”. The labeled movable that completes “−” is **G0**? already present.\n\nThus, remove the vertical match of the plus sign by moving it to an unused segment location: the only labeled segment for the operator is **G0**; so target is **D0**? not.\n\nI can’t unambiguously map the plus-sign’s vertical segment label from the image (only **G0** is labeled), so I can’t provide a correct `Move(label,label)` answer that will parse reliably. Please provide the label for the **vertical** matchstick of the plus sign (or a higher-resolution crop around the operator), and I’ll output the exact boxed move(s)."
+  },
+  {
+    "id": "00971572",
+    "level": 3,
+    "problem": "69-33=2",
+    "image": "level3/00971572_69-33=2.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "65 - 63 = 2",
+        "moves": [
+          "Move(B2, C5)",
+          "Move(C2, C6)"
+        ]
+      },
+      {
+        "solution": "95 - 93 = 2",
+        "moves": [
+          "Move(A5, A2)",
+          "Move(B2, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "B2"
+          ],
+          "place": [
+            "A2",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with at most two moves, turn the leftmost **9** into an **8** by adding its missing lower-left segment, and turn the rightmost **8** into a **9** by removing its lower-left segment. This preserves legible digits and yields **8 + 0 = 8**, which is correct.\n\n\\boxed{{Move(B5, A5), Move(E5, B5)}}"
+  },
+  {
+    "id": "01102209",
+    "level": 3,
+    "problem": "80+55=5",
+    "image": "level3/01102209_80+55=5.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "90 - 85 = 5",
+        "moves": [
+          "Move(G0, C2)",
+          "Move(A5, C5)"
+        ]
+      },
+      {
+        "solution": "00 + 05 = 5",
+        "moves": [
+          "Move(A0, C2)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "A5"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the equation with one move, turn the **“+”** into a **“−”** by removing its vertical matchstick. Then the statement becomes **9 − 9 = 0**, which is true. Concretely, move the vertical matchstick of the plus (segment **G0**) into the missing middle segment of the **0** (segment **B0**) to turn that 0 into an **8**; the left “9” stays 9, the right “9” stays 9, and the result becomes **9 − 9 = 0** (since the rightmost digit is already 0 and unchanged).\n\n\\[\n\\boxed{{Move(G0, B0)}}\n\\]"
+  },
+  {
+    "id": "01134803",
+    "level": 3,
+    "problem": "82-9=70",
+    "image": "level3/01134803_82-9=70.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "82 - 6 = 76",
+        "moves": [
+          "Move(E2, E0)",
+          "Move(C2, C5)"
+        ]
+      },
+      {
+        "solution": "83 - 5 = 78",
+        "moves": [
+          "Move(B5, E0)",
+          "Move(C2, B3)"
+        ]
+      },
+      {
+        "solution": "02 + 8 = 10",
+        "moves": [
+          "Move(A0, G0)",
+          "Move(D1, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E2",
+            "C2"
+          ],
+          "place": [
+            "E0",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "C2"
+          ],
+          "place": [
+            "E0",
+            "B3"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "D1"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the **“5”** (digit C) into a **“3”** by moving its **upper-left** vertical matchstick (C6) to the **upper-right** vertical position (C2). This turns **9 − 5 = 3** into the correct equation **9 − 3 = 6**.\n\n\\boxed{{Move(C6, C2)}}"
+  },
+  {
+    "id": "01195718",
+    "level": 3,
+    "problem": "86-6=26",
+    "image": "level3/01195718_86-6=26.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "36 - 8 = 28",
+        "moves": [
+          "Move(A5, E2)",
+          "Move(A6, C2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "E2",
+            "C2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the left number **9** into **3** by moving its upper-left vertical matchstick (segment **C6**) to the missing upper-right vertical segment (**C2**). This turns **9** into **3**, giving a correct equation: **3 = 3**.\n\n\\boxed{{Move(C6, C2)}}"
+  },
+  {
+    "id": "01211036",
+    "level": 3,
+    "problem": "87-8=74",
+    "image": "level3/01211036_87-8=74.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "81 - 8 = 73",
+        "moves": [
+          "Move(E6, E1)",
+          "Move(B1, E4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E6",
+            "B1"
+          ],
+          "place": [
+            "E1",
+            "E4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation valid, change the **left “9” (A)** into a **“5”** by moving its **upper-right vertical** matchstick to the **lower-left vertical** position. This turns **9 + 9 = 00** into **5 + 9 = 00**, i.e., **14 = 0**? Not yet—so instead we use the moved match to fix the result: converting the **rightmost “0” (E)** into an **“8”** by placing the freed matchstick on its **middle segment**. Then the equation becomes **5 + 9 = 08**, i.e., **14 = 8** (still not correct).  \nSo the correct 2-move fix is: turn **both 9s (A and C)** into **8s** by adding their missing upper-left segments using the two available “extra” matches taken from the two zeros’ middle segments (D0 and E0), turning them into **8** and **8**, yielding **88 = 88**.\n\n\\[\n\\boxed{{Move(D0, A6),\\; Move(E0, C6)}}\n\\]"
+  },
+  {
+    "id": "01257340",
+    "level": 3,
+    "problem": "90+86=0",
+    "image": "level3/01257340_90+86=0.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "80 - 80 = 0",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(D0, D2)"
+        ]
+      },
+      {
+        "solution": "86 - 86 = 0",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(B2, B0)"
+        ]
+      },
+      {
+        "solution": "98 - 98 = 0",
+        "moves": [
+          "Move(G0, B0)",
+          "Move(C5, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "D0"
+          ],
+          "place": [
+            "A5",
+            "D2"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B2"
+          ],
+          "place": [
+            "A5",
+            "B0"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "C5"
+          ],
+          "place": [
+            "B0",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **leftmost 9** into an **8** by adding its missing bottom-left segment, and take that match from the **middle bar of the 8** (second digit) so that **8 becomes 0**.  \nThis changes **98 + 69 = 80** into the correct equation **80 + 69 = 149**? — not possible because the result stays 80.  \nSo we instead make the right side equal **167** by turning the last **0** into **9** and the **6** into **8**, yielding **98 + 89 = 187**? Not possible.\n\nA valid 2-move fix is:\n- Change the **+** into a **−** by removing its vertical match.\n- Use that removed match to add the missing bottom-left segment of the first digit **9**, turning it into **8**.\n\nThen the equation becomes **88 − 69 = 19**, which is true.\n\n\\[\n\\boxed{{Move(G0, A5),\\ Move(C5, G0)}}\n\\]"
+  },
+  {
+    "id": "01371171",
+    "level": 3,
+    "problem": "97-38=5",
+    "image": "level3/01371171_97-38=5.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "87 - 78 = 9",
+        "moves": [
+          "Move(C0, E2)",
+          "Move(C4, A5)"
+        ]
+      },
+      {
+        "solution": "43 - 38 = 5",
+        "moves": [
+          "Move(A1, B0)",
+          "Move(A4, B4)"
+        ]
+      },
+      {
+        "solution": "37 - 28 = 9",
+        "moves": [
+          "Move(A6, E2)",
+          "Move(C3, C5)"
+        ]
+      },
+      {
+        "solution": "91 - 86 = 5",
+        "moves": [
+          "Move(B1, C5)",
+          "Move(D2, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C0",
+            "C4"
+          ],
+          "place": [
+            "E2",
+            "A5"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "A4"
+          ],
+          "place": [
+            "B0",
+            "B4"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C3"
+          ],
+          "place": [
+            "E2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B1",
+            "D2"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the equation with one move, turn the first digit **9** into **3** by removing its **upper-left** segment, and use that matchstick to complete the last digit **5** into **9** by adding the **upper-right** segment.  \nThis changes **99 + 30 = 35** into the correct equation **39 + 30 = 69**.\n\n\\boxed{{Move(A6, E2)}}"
+  },
+  {
+    "id": "01372355",
+    "level": 3,
+    "problem": "97-55=2",
+    "image": "level3/01372355_97-55=2.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "61 - 59 = 2",
+        "moves": [
+          "Move(A2, A5)",
+          "Move(B1, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "B1"
+          ],
+          "place": [
+            "A5",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct in one move, change the **second digit** from **0** to **8** by adding the missing middle segment **B0**. Take one matchstick from the plus sign (removing its vertical stick turns “+” into “−”) and place it onto **B0**.  \nThis yields: **98 − 80 = 18**, which is valid.\n\n\\boxed{{Move(G0, B0)}}"
+  },
+  {
+    "id": "00112779",
+    "level": 4,
+    "problem": "01-62=76",
+    "image": "level4/00112779_01-62=76.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "81 - 62 = 19",
+        "moves": [
+          "Move(E1, A0)",
+          "Move(F5, F2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E1",
+            "F5"
+          ],
+          "place": [
+            "A0",
+            "F2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with two moves, change the leftmost **9** into **3** by moving its two left vertical matchsticks to the missing right vertical positions. This turns **9 − 5 = 8** into the correct equation **3 − 5 = −2** (the middle symbol is already a minus, and the right side becomes “−2” because the remaining digit there is effectively a 2 with the existing minus sign).\n\n\\[\n\\boxed{{Move(A6, A2), Move(A5, A3)}}\n\\]"
+  },
+  {
+    "id": "00130060",
+    "level": 4,
+    "problem": "03+58=45",
+    "image": "level4/00130060_03+58=45.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "83 - 38 = 45",
+        "moves": [
+          "Move(G0, A0)",
+          "Move(C6, C2)"
+        ]
+      },
+      {
+        "solution": "09 + 36 = 45",
+        "moves": [
+          "Move(C6, B6)",
+          "Move(D2, C2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C6"
+          ],
+          "place": [
+            "A0",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "C6",
+            "D2"
+          ],
+          "place": [
+            "B6",
+            "C2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with two moves:\n\n- Turn the first digit **9** (A) into **3** by moving the **top-left** segment to the **bottom-left** segment: move **A6 → A5**.  \n- Turn the second digit **3** (C) into **8** by adding the missing **top-right** segment using the unused vertical match from the plus sign: move **G0 → C2**.  \n  This changes the expression from **93 + 35 = 95** to **33 + 85 = 95**, which is correct.\n\n\\[\n\\boxed{{Move(A6, A5), Move(G0, C2)}}\n\\]"
+  },
+  {
+    "id": "00167126",
+    "level": 4,
+    "problem": "06+45=83",
+    "image": "level4/00167126_06+45=83.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "38 + 45 = 83",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(A6, B2)"
+        ]
+      },
+      {
+        "solution": "08 + 75 = 83",
+        "moves": [
+          "Move(C0, B2)",
+          "Move(C6, C1)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "A0",
+            "B2"
+          ]
+        },
+        {
+          "pick": [
+            "C0",
+            "C6"
+          ],
+          "place": [
+            "B2",
+            "C1"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, change the **leftmost 8** into a **9** by removing its **lower-left** segment (A5) and place that matchstick on the **missing middle** segment of the **0** (C0 is present; C0? actually the middle is C0 already—so instead we complete the middle of the “=” sign? No). The valid one-move fix is to turn the **“+”** into a **“−”** so the equation becomes **8 − 9 = −1**, which is correct. Do that by moving the **vertical match** of the plus (G0 vertical) away and using it to form the minus only (leaving the horizontal).\n\n\\boxed{{Move(G0, G0)}}"
+  },
+  {
+    "id": "00172602",
+    "level": 4,
+    "problem": "06-15=97",
+    "image": "level4/00172602_06-15=97.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "96 - 15 = 81",
+        "moves": [
+          "Move(A5, E5)",
+          "Move(F1, A0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "F1"
+          ],
+          "place": [
+            "E5",
+            "A0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the **plus** sign into a **minus** sign by removing its vertical matchstick. Move that matchstick to the top-right segment of the leftmost digit **9**, turning it into **8**.  \nThis transforms **9 + 9 = 6** into the valid equation **8 − 9 = −1** (the rightmost “6” becomes “−1” because removing the middle bar from 6 leaves 0? Actually here we keep the rightmost digit as 6; instead the correction yields **8 - 9 = -1**, where the “6” must already represent “-1” in this configuration—so the only consistent fix with one move is to make the left side match the right side’s value by turning the first 9 into 8 and + into −, giving **8 − 9 = −1**.)\n\n\\[\n\\boxed{{Move(G0, A2)}}"
+  },
+  {
+    "id": "00199995",
+    "level": 4,
+    "problem": "08-23=46",
+    "image": "level4/00199995_08-23=46.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "68 - 22 = 46",
+        "moves": [
+          "Move(A2, A0)",
+          "Move(D3, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "D3"
+          ],
+          "place": [
+            "A0",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **plus** sign into a **minus** sign by removing its vertical matchstick. The displayed expression is **8 + 0 = 0**, which is false; changing `+` to `−` gives **8 − 0 = 8**, which is true.\n\n\\boxed{{Move(G1, F1)}}"
+  },
+  {
+    "id": "00214491",
+    "level": 4,
+    "problem": "09-07=05",
+    "image": "level4/00214491_09-07=05.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "05 + 01 = 06",
+        "moves": [
+          "Move(B2, G0)",
+          "Move(D1, F5)"
+        ]
+      },
+      {
+        "solution": "09 - 07 = 02",
+        "moves": [
+          "Move(F3, F2)",
+          "Move(F6, F5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D1"
+          ],
+          "place": [
+            "G0",
+            "F5"
+          ]
+        },
+        {
+          "pick": [
+            "F3",
+            "F6"
+          ],
+          "place": [
+            "F2",
+            "F5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **plus** sign into a **minus** by removing its vertical matchstick. That changes the statement from **8 + 9 = 8** to **8 − 9 = −1**, which is correct (the last digit is already a “−1” built from a minus sign and a 1).\n\n\\boxed{{Move(G0, F1)}}"
+  },
+  {
+    "id": "00234817",
+    "level": 4,
+    "problem": "11+36=77",
+    "image": "level4/00234817_11+36=77.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "11 + 06 = 17",
+        "moves": [
+          "Move(E1, C5)",
+          "Move(C0, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E1",
+            "C0"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with two moves, turn the **9** into a **3** by removing its upper-left segment, and turn the **0** into an **8** by adding that segment to its middle bar. This yields a correct equation: **83 = 83**.\n\n\\[\n\\boxed{\\text{Move(C6, C0), Move(D0, E0)}}\n\\]"
+  },
+  {
+    "id": "00312864",
+    "level": 4,
+    "problem": "18+01=11",
+    "image": "level4/00312864_18+01=11.png",
+    "solution_num": [
+      3,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "18 - 07 = 11",
+        "moves": [
+          "Move(G0, D1)"
+        ]
+      },
+      {
+        "solution": "18 - 01 = 17",
+        "moves": [
+          "Move(G0, F1)"
+        ]
+      },
+      {
+        "solution": "16 + 01 = 17",
+        "moves": [
+          "Move(B2, F1)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "13 + 01 = 14",
+        "moves": [
+          "Move(B5, F0)",
+          "Move(B6, F6)"
+        ]
+      },
+      {
+        "solution": "10 + 61 = 71",
+        "moves": [
+          "Move(B0, E1)",
+          "Move(C2, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "G0",
+          "place": "D1"
+        },
+        {
+          "pick": "G0",
+          "place": "F1"
+        },
+        {
+          "pick": "B2",
+          "place": "F1"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "B6"
+          ],
+          "place": [
+            "F0",
+            "F6"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C2"
+          ],
+          "place": [
+            "E1",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **8** into a **9** and turn the **3** into a **2** by moving the lower-left segment of the 8 (label **B5**) to the lower-left segment of the 3 (label **D5**).  \nThis changes **83 + 69 = 60** into **93 + 69 = 62**, which is correct.\n\n\\boxed{{Move(B5, D5)}}"
+  },
+  {
+    "id": "00349573",
+    "level": 4,
+    "problem": "20-49=36",
+    "image": "level4/00349573_20-49=36.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "80 - 44 = 36",
+        "moves": [
+          "Move(D1, A3)",
+          "Move(D4, A6)"
+        ]
+      },
+      {
+        "solution": "80 - 45 = 35",
+        "moves": [
+          "Move(F5, A3)",
+          "Move(D2, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "D1",
+            "D4"
+          ],
+          "place": [
+            "A3",
+            "A6"
+          ]
+        },
+        {
+          "pick": [
+            "F5",
+            "D2"
+          ],
+          "place": [
+            "A3",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the leftmost **9** into a **5** by moving its upper-right segment to the upper-left position. Then the equation becomes **5 − 9 = −4**, which is correct.\n\n\\boxed{{Move(A2, A6)}}"
+  },
+  {
+    "id": "00647523",
+    "level": 4,
+    "problem": "45-58=58",
+    "image": "level4/00647523_45-58=58.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "45 + 53 = 98",
+        "moves": [
+          "Move(D5, G0)",
+          "Move(D6, E2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "D5",
+            "D6"
+          ],
+          "place": [
+            "G0",
+            "E2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the leftmost digit **9** into **5** by moving its **upper-right** segment to the **lower-left** segment. This turns **99 − 5 = 88** into **59 − 5 = 88**, which is correct.\n\n\\[\n59 - 5 = 88\n\\]\n\n\\boxed{{Move(A2, A5)}}"
+  },
+  {
+    "id": "00665515",
+    "level": 4,
+    "problem": "47+85=03",
+    "image": "level4/00665515_47+85=03.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "47 + 36 = 83",
+        "moves": [
+          "Move(C5, E0)",
+          "Move(C6, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C5",
+            "C6"
+          ],
+          "place": [
+            "E0",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, turn the **“+”** into a **“−”** by removing its vertical matchstick. This changes the statement from **89 + 3 = 05** to **89 − 3 = 86**, which is true.\n\n\\boxed{{Move(G0, D2)}}"
+  },
+  {
+    "id": "00724294",
+    "level": 4,
+    "problem": "52+30=37",
+    "image": "level4/00724294_52+30=37.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "52 + 39 = 91",
+        "moves": [
+          "Move(F1, E6)",
+          "Move(D5, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "F1",
+            "D5"
+          ],
+          "place": [
+            "E6",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, change the leftmost digit **9** into **3** by removing its upper-left vertical segment. In seven-segment form, removing segment **A6** turns **9 → 3**. Place that matchstick onto the missing bottom segment of the result digit **0** (segment **F4**) to turn **0 → 8**.  \nThis yields: **3 + 7 = 10**, which is correct.\n\n\\boxed{{Move(A6, F4)}}"
+  },
+  {
+    "id": "00778345",
+    "level": 4,
+    "problem": "56+51=67",
+    "image": "level4/00778345_56+51=67.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "58 - 51 = 07",
+        "moves": [
+          "Move(G0, E2)",
+          "Move(E0, B2)"
+        ]
+      },
+      {
+        "solution": "56 + 01 = 57",
+        "moves": [
+          "Move(E5, C2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "36 + 31 = 67",
+        "moves": [
+          "Move(A6, A2)",
+          "Move(C6, C2)"
+        ]
+      },
+      {
+        "solution": "06 + 51 = 57",
+        "moves": [
+          "Move(E5, A2)",
+          "Move(A0, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "E0"
+          ],
+          "place": [
+            "E2",
+            "B2"
+          ]
+        },
+        {
+          "pick": [
+            "E5",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C6"
+          ],
+          "place": [
+            "A2",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "E5",
+            "A0"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the leftmost **9** into an **8** by adding its missing lower-left segment, and turn the **+** into a **−** by removing the matchstick that forms the vertical stroke of the plus.\n\n- Move the vertical matchstick from the **+** (label **G0**) to the missing lower-left segment of the **9** (label **A5**).\n- This yields **8 − 3 = 5**, which is correct.\n\n\\boxed{{Move(G0, A5)}}"
+  },
+  {
+    "id": "00857052",
+    "level": 4,
+    "problem": "61-13=12",
+    "image": "level4/00857052_61-13=12.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "31 - 19 = 12",
+        "moves": [
+          "Move(A5, A2)",
+          "Move(A6, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "A2",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the equation with one move, turn the **leftmost 8** into a **9** (remove its lower-left segment) and simultaneously turn the **rightmost 6** into a **5** (add that same segment as its upper-right). This makes the equation read **9 + 1 = 10 − 5**, i.e. **10 = 10**.\n\n\\[\n\\boxed{\\text{Move}(A5, F2)}\n\\]"
+  },
+  {
+    "id": "00903044",
+    "level": 4,
+    "problem": "65+12=60",
+    "image": "level4/00903044_65+12=60.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "55 + 13 = 68",
+        "moves": [
+          "Move(A5, F0)",
+          "Move(D5, D3)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "D5"
+          ],
+          "place": [
+            "F0",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with two moves, turn the left **9** into an **8** (add the missing lower-left segment), and turn the **3** into a **4** (remove its bottom segment and use it to supply the 9→8 change). This yields a correct equation: **8 + 4 = 12**.\n\n\\[\n\\boxed{{Move(D4,\\ A5),\\ Move(A2,\\ D3)}}\n\\]"
+  },
+  {
+    "id": "00914679",
+    "level": 4,
+    "problem": "65-72=19",
+    "image": "level4/00914679_65-72=19.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "85 - 72 = 13",
+        "moves": [
+          "Move(F6, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "85 - 12 = 73",
+        "moves": [
+          "Move(F6, E1)",
+          "Move(C1, A2)"
+        ]
+      },
+      {
+        "solution": "86 - 72 = 14",
+        "moves": [
+          "Move(F1, A2)",
+          "Move(F4, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "F6",
+          "place": "A2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "F6",
+            "C1"
+          ],
+          "place": [
+            "E1",
+            "A2"
+          ]
+        },
+        {
+          "pick": [
+            "F1",
+            "F4"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "The displayed equation is **98 + 9 = 6**, which is false.  \nMove one matchstick from the **upper-left segment of the “9”** in the first number (digit B) to the **upper-right segment of the “6”** (digit F). This turns **B: 9 → 3** and **F: 6 → 8**, giving **83 + 9 = 92**, which is correct.\n\n\\boxed{{Move(B6, F2)}}"
+  },
+  {
+    "id": "00929221",
+    "level": 4,
+    "problem": "66-59=86",
+    "image": "level4/00929221_66-59=86.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "66 - 60 = 06",
+        "moves": [
+          "Move(E0, C5)",
+          "Move(D0, D5)"
+        ]
+      },
+      {
+        "solution": "68 - 59 = 09",
+        "moves": [
+          "Move(E0, F2)",
+          "Move(F5, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E0",
+            "D0"
+          ],
+          "place": [
+            "C5",
+            "D5"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "F5"
+          ],
+          "place": [
+            "F2",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the equation, change the **“+”** into a **“−”** by moving the **vertical** matchstick of the plus sign away. This makes the statement true:\n\n- Original: **89 + 69 = 66** (false)  \n- After move: **89 − 69 = 20** (true)\n\n\\boxed{{Move(G0, C2)}}"
+  },
+  {
+    "id": "00996614",
+    "level": 4,
+    "problem": "71-33=06",
+    "image": "level4/00996614_71-33=06.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "71 - 33 = 38",
+        "moves": [
+          "Move(E5, E0)",
+          "Move(E6, F2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E5",
+            "E6"
+          ],
+          "place": [
+            "E0",
+            "F2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, turn the **leftmost 0** into a **9** by adding the missing **middle segment**. You can do that by moving the **bottom-left segment** from the second digit (which is also a 0) to the **middle segment** of the first digit.  \nThis changes the equation from **00 + 8 = 26** to **90 + 8 = 98**, which is correct.\n\n\\[\n\\boxed{{Move(B5, A0)}}\n\\]"
+  },
+  {
+    "id": "00999806",
+    "level": 4,
+    "problem": "71-95=36",
+    "image": "level4/00999806_71-95=36.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "71 - 33 = 38",
+        "moves": [
+          "Move(C6, F2)",
+          "Move(D6, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C6",
+            "D6"
+          ],
+          "place": [
+            "F2",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the **+** into a **−**.  \nMove the **vertical** matchstick of the plus sign (segment **G0**) away (to any unused segment). Placing it on **D2** (top-right segment of digit **D**) doesn’t change that digit because **D2** is already occupied, but it removes the vertical stroke from **+**, leaving a **−**. The equation becomes **8 − 9 = −1**, which is correct.\n\n\\boxed{{Move(G0, D2)}}"
+  },
+  {
+    "id": "01023063",
+    "level": 4,
+    "problem": "73-86=77",
+    "image": "level4/01023063_73-86=77.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "73 - 36 = 37",
+        "moves": [
+          "Move(C5, E0)",
+          "Move(C6, E4)"
+        ]
+      },
+      {
+        "solution": "79 - 08 = 71",
+        "moves": [
+          "Move(F1, B6)",
+          "Move(C0, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C5",
+            "C6"
+          ],
+          "place": [
+            "E0",
+            "E4"
+          ]
+        },
+        {
+          "pick": [
+            "F1",
+            "C0"
+          ],
+          "place": [
+            "B6",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true, change the leftmost digit **2** into **3** by moving its lower-left vertical matchstick to the missing middle segment. This turns **20** into **30**, giving a correct equation: **30 + 0 = 30**.\n\n\\boxed{{Move(A5, A0)}}"
+  },
+  {
+    "id": "01085748",
+    "level": 4,
+    "problem": "79+14=34",
+    "image": "level4/01085748_79+14=34.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "15 + 19 = 34",
+        "moves": [
+          "Move(A1, D1)",
+          "Move(B2, D4)"
+        ]
+      },
+      {
+        "solution": "19 + 14 = 33",
+        "moves": [
+          "Move(A1, F1)",
+          "Move(F6, F4)"
+        ]
+      },
+      {
+        "solution": "19 + 15 = 34",
+        "moves": [
+          "Move(A1, D1)",
+          "Move(D2, D4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A1",
+            "B2"
+          ],
+          "place": [
+            "D1",
+            "D4"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "F6"
+          ],
+          "place": [
+            "F1",
+            "F4"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "D2"
+          ],
+          "place": [
+            "D1",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To fix the equation, change the leftmost **9** into a **3** by moving its **upper-left vertical** matchstick (segment **A6**) to the **lower-right vertical** position (segment **A3**).  \nThat turns the equation into **3 + 3 = 6**, which is correct.\n\n\\boxed{{Move(A6, A3)}}"
+  },
+  {
+    "id": "01090324",
+    "level": 4,
+    "problem": "79+91=76",
+    "image": "level4/01090324_79+91=76.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "79 - 01 = 78",
+        "moves": [
+          "Move(G0, F2)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "F2",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, turn the leftmost **6** into a **5** by removing its lower-left vertical segment (A5) and use that matchstick to add the missing upper-right segment of the middle **5** (D2), turning it into a **9**.  \nThis changes **6 8 + 9 = 6 0** into **5 8 + 9 = 6 7**, i.e., **58 + 9 = 67**, which is correct.\n\n\\boxed{{Move(A5, D2)}}"
+  },
+  {
+    "id": "01096919",
+    "level": 4,
+    "problem": "79-81=32",
+    "image": "level4/01096919_79-81=32.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "33 - 01 = 32",
+        "moves": [
+          "Move(B6, A0)",
+          "Move(C0, A4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B6",
+            "C0"
+          ],
+          "place": [
+            "A0",
+            "A4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct, change the leftmost digit **9** into **8** by adding the missing lower-left segment, and take that matchstick from the **+** sign so that **+** becomes **−**. This yields a valid equation: **8 − 0 = 8**.\n\n\\boxed{{Move(G0, A5)}}"
+  },
+  {
+    "id": "01151846",
+    "level": 4,
+    "problem": "83-22=52",
+    "image": "level4/01151846_83-22=52.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "84 - 22 = 62",
+        "moves": [
+          "Move(B1, E5)",
+          "Move(B4, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "E5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation correct with two moves: turn the left **8** into a **9** by removing its lower-left segment, and turn the **3** into a **2** by adding that same segment to its lower-left position. This yields **9 + 2 = 11**, which is true.\n\n\\[\n\\boxed{{Move(A5, C6), Move(C3, A5)}}\n\\]"
+  },
+  {
+    "id": "01247204",
+    "level": 4,
+    "problem": "89-52=17",
+    "image": "level4/01247204_89-52=17.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "69 - 58 = 11",
+        "moves": [
+          "Move(A2, D3)",
+          "Move(F1, D6)"
+        ]
+      },
+      {
+        "solution": "65 - 52 = 13",
+        "moves": [
+          "Move(A2, F0)",
+          "Move(B2, F4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "F1"
+          ],
+          "place": [
+            "D3",
+            "D6"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B2"
+          ],
+          "place": [
+            "F0",
+            "F4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.2",
+    "temperature": 0.7,
+    "response_raw": "To make the equation true with one move, change the **second digit** (B) from **9** to **3** by removing its upper-left vertical segment (B6). The displayed equation becomes **8 − 3 + 4 = 9**, which is correct.\n\n\\boxed{{Move(B6, G0)}}"
+  }
+]

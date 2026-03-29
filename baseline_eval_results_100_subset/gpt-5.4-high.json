@@ -1,0 +1,5387 @@
+[
+  {
+    "id": "00004879",
+    "level": 1,
+    "problem": "0-0=3",
+    "image": "level1/00004879_0-0=3.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 5 = 3",
+        "moves": [
+          "Move(B2, A0)",
+          "Move(B5, B0)"
+        ]
+      },
+      {
+        "solution": "3 + 0 = 3",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(A6, G0)"
+        ]
+      },
+      {
+        "solution": "0 + 3 = 3",
+        "moves": [
+          "Move(B5, G0)",
+          "Move(B6, B0)"
+        ]
+      },
+      {
+        "solution": "9 - 6 = 3",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(B2, B0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "B5"
+          ],
+          "place": [
+            "A0",
+            "B0"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "A0",
+            "G0"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "B6"
+          ],
+          "place": [
+            "G0",
+            "B0"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "B2"
+          ],
+          "place": [
+            "A0",
+            "B0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match of the first digit to its middle to turn **0 → 9**, and move the upper-right match of the second digit to its middle to turn **0 → 6**. The equation becomes **9 - 6 = 3**, which is correct.\n\n\\boxed{{Move(A5, A0), Move(B2, B0)}}"
+  },
+  {
+    "id": "00004912",
+    "level": 1,
+    "problem": "0-1=6",
+    "image": "level1/00004912_0-1=6.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 1 = 6",
+        "moves": [
+          "Move(A2, A0)",
+          "Move(A5, G0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "A5"
+          ],
+          "place": [
+            "A0",
+            "G0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move two sticks from the leftmost `0`: shift `A2` to the middle segment `A0`, and move `A5` to the vertical segment of the operator `G1`. This changes `0 - 1 = 6` into `5 + 1 = 6`, which is correct.\n\n\\boxed{{Move(A2, A0), Move(A5, G1)}}"
+  },
+  {
+    "id": "00007840",
+    "level": 1,
+    "problem": "1+4=9",
+    "image": "level1/00007840_1+4=9.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "1 + 7 = 8",
+        "moves": [
+          "Move(B0, B1)",
+          "Move(B6, C5)"
+        ]
+      },
+      {
+        "solution": "7 + 1 = 8",
+        "moves": [
+          "Move(B0, A1)",
+          "Move(B6, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "B1",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "A1",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the middle digit to its bottom segment, turning it into **5**. Then move the upper-right match of the right digit to its lower-left segment, turning **9** into **6**. The equation becomes **1 + 5 = 6**.\n\n\\boxed{{Move(B2, B4), Move(C2, C5)}}"
+  },
+  {
+    "id": "00012756",
+    "level": 1,
+    "problem": "1-6=1",
+    "image": "level1/00012756_1-6=1.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "1 - 0 = 1",
+        "moves": [
+          "Move(B0, B2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "B0",
+          "place": "B2"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of the 6 to its upper-right segment, turning **6** into **0**. The equation becomes **1 - 0 = 1**, which is correct.\n\n\\boxed{{Move(B0, B2)}}"
+  },
+  {
+    "id": "00015201",
+    "level": 1,
+    "problem": "2+1=8",
+    "image": "level1/00015201_2+1=8.png",
+    "solution_num": [
+      1,
+      1
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "2 + 7 = 9",
+        "moves": [
+          "Move(C5, B1)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 1 = 8",
+        "moves": [
+          "Move(A5, A3)",
+          "Move(G0, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "C5",
+          "place": "B1"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "G0"
+          ],
+          "place": [
+            "A3",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match from the **8** to the top of the **1**.  \nThis changes **1 → 7** and **8 → 9**, giving the correct equation:\n\n**2 + 7 = 9**\n\n\\boxed{{Move(C5, B1)}}"
+  },
+  {
+    "id": "00022913",
+    "level": 1,
+    "problem": "3+3=7",
+    "image": "level1/00022913_3+3=7.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 2 = 7",
+        "moves": [
+          "Move(A2, A6)",
+          "Move(B3, B5)"
+        ]
+      },
+      {
+        "solution": "2 + 5 = 7",
+        "moves": [
+          "Move(A3, A5)",
+          "Move(B2, B6)"
+        ]
+      },
+      {
+        "solution": "9 - 2 = 7",
+        "moves": [
+          "Move(G0, A6)",
+          "Move(B3, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "B3"
+          ],
+          "place": [
+            "A6",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A3",
+            "B2"
+          ],
+          "place": [
+            "A5",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B3"
+          ],
+          "place": [
+            "A6",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-right match of the left `3` to its lower-left segment to make `2`, and move the upper-right match of the middle `3` to its upper-left segment to make `5`. The equation becomes `2 + 5 = 7`.\n\n\\boxed{{Move(A3, A5), Move(B2, B6)}}"
+  },
+  {
+    "id": "00029116",
+    "level": 1,
+    "problem": "3-4=2",
+    "image": "level1/00029116_3-4=2.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 7 = 2",
+        "moves": [
+          "Move(B0, A6)",
+          "Move(B6, B1)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "A6",
+            "B1"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match of the middle digit to its top segment, turning **4** into **7**. Then move the middle match of the middle digit to the upper-left segment of the left digit, turning **3** into **9**. The equation becomes **9 - 7 = 2**.\n\n\\boxed{{Move(B6, B1), Move(B0, A6)}}"
+  },
+  {
+    "id": "00029119",
+    "level": 1,
+    "problem": "3-4=7",
+    "image": "level1/00029119_3-4=7.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 1 = 7",
+        "moves": [
+          "Move(B0, A5)",
+          "Move(B6, A6)"
+        ]
+      },
+      {
+        "solution": "7 - 4 = 3",
+        "moves": [
+          "Move(A0, C0)",
+          "Move(A4, C4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "B6"
+          ],
+          "place": [
+            "A5",
+            "A6"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "A4"
+          ],
+          "place": [
+            "C0",
+            "C4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two horizontal matchsticks from the left digit’s middle and bottom to the right digit’s middle and bottom. This changes the equation from **3 − 4 = 7** to **7 − 4 = 3**, which is correct.\n\n\\boxed{{Move(A0, C0), Move(A4, C4)}}"
+  },
+  {
+    "id": "00029155",
+    "level": 1,
+    "problem": "3-5=9",
+    "image": "level1/00029155_3-5=9.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "3 - 3 = 0",
+        "moves": [
+          "Move(B6, B2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "3 - 0 = 3",
+        "moves": [
+          "Move(B0, B2)",
+          "Move(C6, B5)"
+        ]
+      },
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(A1, A6)",
+          "Move(A4, G0)"
+        ]
+      },
+      {
+        "solution": "5 - 5 = 0",
+        "moves": [
+          "Move(A2, A6)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B6",
+            "C0"
+          ],
+          "place": [
+            "B2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C6"
+          ],
+          "place": [
+            "B2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "A4"
+          ],
+          "place": [
+            "A6",
+            "G0"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "C0"
+          ],
+          "place": [
+            "A6",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match of the **5** to its upper-right segment so it becomes **3**, and move the middle match of the **9** to its lower-left segment so it becomes **0**. The equation becomes **3 - 3 = 0**.\n\n\\boxed{{Move(B6, B2), Move(C0, C5)}}"
+  },
+  {
+    "id": "00032431",
+    "level": 1,
+    "problem": "4+1=8",
+    "image": "level1/00032431_4+1=8.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 - 4 = 0",
+        "moves": [
+          "Move(G0, B0)",
+          "Move(C0, B6)"
+        ]
+      },
+      {
+        "solution": "5 + 1 = 6",
+        "moves": [
+          "Move(A2, A1)",
+          "Move(C2, A4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "B0",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "C2"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the first digit to its top, then move the upper-right match of the last digit to the bottom of the first digit. This changes the equation from \\(4+1=8\\) to \\(5+1=6\\), which is correct.\n\n\\boxed{{Move(A2, A1), Move(C2, A4)}}"
+  },
+  {
+    "id": "00032505",
+    "level": 1,
+    "problem": "4+3=0",
+    "image": "level1/00032505_4+3=0.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 + 4 = 8",
+        "moves": [
+          "Move(B1, B6)",
+          "Move(B4, C0)"
+        ]
+      },
+      {
+        "solution": "3 - 3 = 0",
+        "moves": [
+          "Move(A6, A1)",
+          "Move(G0, A4)"
+        ]
+      },
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(B2, B6)",
+          "Move(C5, C0)"
+        ]
+      },
+      {
+        "solution": "4 + 2 = 6",
+        "moves": [
+          "Move(B3, B5)",
+          "Move(C2, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "B6",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "G0"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        },
+        {
+          "pick": [
+            "B2",
+            "C5"
+          ],
+          "place": [
+            "B6",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "B3",
+            "C2"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move one match in **B** from the lower-right segment to the lower-left to turn **3 → 2**, and move one match in **C** from the upper-right segment to the middle to turn **0 → 6**.  \nThis makes the equation **4 + 2 = 6**, which is correct.\n\n\\boxed{Move(B3, B5), Move(C2, C0)}"
+  },
+  {
+    "id": "00032713",
+    "level": 1,
+    "problem": "4+9=3",
+    "image": "level1/00032713_4+9=3.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(B2, C6)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "4 + 4 = 8",
+        "moves": [
+          "Move(B1, C5)",
+          "Move(B4, C6)"
+        ]
+      },
+      {
+        "solution": "1 + 8 = 9",
+        "moves": [
+          "Move(A0, B5)",
+          "Move(A6, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "B2",
+          "place": "C6"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "A6"
+          ],
+          "place": [
+            "B5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right matchstick of the middle digit 9 (segment **B2**) to the upper-left segment of the right digit 3 (segment **C6**). This changes the equation from **4 + 9 = 3** to **4 + 5 = 9**, which is correct.\n\n\\boxed{{Move(B2, C6)}}"
+  },
+  {
+    "id": "00040007",
+    "level": 1,
+    "problem": "5+4=7",
+    "image": "level1/00040007_5+4=7.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "3 + 4 = 7",
+        "moves": [
+          "Move(A6, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "A6",
+          "place": "A2"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match of the left digit **5** to its upper-right position, turning **5** into **3**.  \nThe equation becomes **3 + 4 = 7**, which is correct.\n\n\\boxed{{Move(A6, A2)}}"
+  },
+  {
+    "id": "00040055",
+    "level": 1,
+    "problem": "5+5=5",
+    "image": "level1/00040055_5+5=5.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 4 = 9",
+        "moves": [
+          "Move(B1, B2)",
+          "Move(B4, C2)"
+        ]
+      },
+      {
+        "solution": "4 + 5 = 9",
+        "moves": [
+          "Move(A1, A2)",
+          "Move(A4, C2)"
+        ]
+      },
+      {
+        "solution": "5 - 5 = 0",
+        "moves": [
+          "Move(G0, C2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "5 - 0 = 5",
+        "moves": [
+          "Move(G0, B2)",
+          "Move(B0, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "B2",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "A4"
+          ],
+          "place": [
+            "A2",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B0"
+          ],
+          "place": [
+            "B2",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the vertical match from the plus sign to the upper-right of the last digit, and move the middle segment of the last digit to its lower-left. This changes `5 + 5 = 5` into `5 - 5 = 0`.\n\n\\boxed{{Move(G0, C2), Move(C0, C5)}}"
+  },
+  {
+    "id": "00046077",
+    "level": 1,
+    "problem": "5-1=0",
+    "image": "level1/00046077_5-1=0.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 1 = 5",
+        "moves": [
+          "Move(C2, A5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C2",
+            "C5"
+          ],
+          "place": [
+            "A5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match from the rightmost `0` to the missing lower-left segment of the left `5`, turning them into `6` and a partial `0`. Then move the upper-right match of that rightmost digit to its middle segment, turning it into `5`. The equation becomes `6 - 1 = 5`, which is correct.\n\n\\boxed{{Move(C5, A5), Move(C2, C0)}}"
+  },
+  {
+    "id": "00046432",
+    "level": 1,
+    "problem": "5-9=4",
+    "image": "level1/00046432_5-9=4.png",
+    "solution_num": [
+      1,
+      3
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "9 - 5 = 4",
+        "moves": [
+          "Move(B2, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 2 = 4",
+        "moves": [
+          "Move(B3, A5)",
+          "Move(B6, B5)"
+        ]
+      },
+      {
+        "solution": "9 - 8 = 1",
+        "moves": [
+          "Move(C0, A2)",
+          "Move(C6, B5)"
+        ]
+      },
+      {
+        "solution": "8 - 4 = 4",
+        "moves": [
+          "Move(B1, A2)",
+          "Move(B4, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "B2",
+          "place": "A2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B3",
+            "B6"
+          ],
+          "place": [
+            "A5",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "C0",
+            "C6"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **B6** to **A5** to change the left digit from **5** to **6** and the middle digit from **9** to **3**. Then move **B3** to **B5** to change that **3** into **2**. The equation becomes **6 - 2 = 4**, which is correct.\n\n\\boxed{{Move(B6, A5), Move(B3, B5)}}"
+  },
+  {
+    "id": "00049613",
+    "level": 1,
+    "problem": "6+0=3",
+    "image": "level1/00049613_6+0=3.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 0 = 6",
+        "moves": [
+          "Move(G0, C5)",
+          "Move(C2, C6)"
+        ]
+      },
+      {
+        "solution": "6 + 3 = 9",
+        "moves": [
+          "Move(B5, B0)",
+          "Move(B6, C6)"
+        ]
+      },
+      {
+        "solution": "9 - 0 = 9",
+        "moves": [
+          "Move(A5, A2)",
+          "Move(G0, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "B6"
+          ],
+          "place": [
+            "B0",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "G0"
+          ],
+          "place": [
+            "A2",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match of the middle digit to its center to turn **0** into **9**, then move the upper-left match of that same digit to the upper-left of the last digit to turn **9** into **3** and **3** into **9**. The equation becomes **6 + 3 = 9**.\n\n\\boxed{{Move(B5, B0), Move(B6, C6)}}"
+  },
+  {
+    "id": "00049719",
+    "level": 1,
+    "problem": "6+2=6",
+    "image": "level1/00049719_6+2=6.png",
+    "solution_num": [
+      1,
+      3
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "8 - 2 = 6",
+        "moves": [
+          "Move(G0, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 3 = 8",
+        "moves": [
+          "Move(A5, B3)",
+          "Move(B5, C2)"
+        ]
+      },
+      {
+        "solution": "6 + 3 = 9",
+        "moves": [
+          "Move(B5, B3)",
+          "Move(C5, C2)"
+        ]
+      },
+      {
+        "solution": "6 - 0 = 6",
+        "moves": [
+          "Move(G0, B3)",
+          "Move(B0, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "G0",
+          "place": "A2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "B5"
+          ],
+          "place": [
+            "B3",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "C5"
+          ],
+          "place": [
+            "B3",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B0"
+          ],
+          "place": [
+            "B3",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match of **2** to its lower-right segment, turning **2** into **3**. Then move the lower-left match of the final **6** to its upper-right segment, turning **6** into **9**. The equation becomes **6 + 3 = 9**.\n\n\\boxed{{Move(B5, B3), Move(C5, C2)}}"
+  },
+  {
+    "id": "00059919",
+    "level": 1,
+    "problem": "7+3=0",
+    "image": "level1/00059919_7+3=0.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "7 + 2 = 9",
+        "moves": [
+          "Move(B3, B5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B3",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **B3 → B5** to change the **3** into **2**, and move **C5 → C0** to change the **0** into **9**. The equation becomes **7 + 2 = 9**, which is correct.\n\n\\boxed{{Move(B3, B5), Move(C5, C0)}}"
+  },
+  {
+    "id": "00075585",
+    "level": 1,
+    "problem": "8-9=3",
+    "image": "level1/00075585_8-9=3.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 6 = 2",
+        "moves": [
+          "Move(B2, B5)",
+          "Move(C3, C5)"
+        ]
+      },
+      {
+        "solution": "9 - 9 = 0",
+        "moves": [
+          "Move(A5, C5)",
+          "Move(C0, C6)"
+        ]
+      },
+      {
+        "solution": "6 + 3 = 9",
+        "moves": [
+          "Move(A2, G0)",
+          "Move(B6, C6)"
+        ]
+      },
+      {
+        "solution": "9 - 0 = 9",
+        "moves": [
+          "Move(A5, B5)",
+          "Move(B0, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "C3"
+          ],
+          "place": [
+            "B5",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "C0"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B6"
+          ],
+          "place": [
+            "G0",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "B0"
+          ],
+          "place": [
+            "B5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the middle digit 9 to its lower-left to make 6, and move the lower-right match of the right digit 3 to its lower-left to make 2. The equation becomes \\(8-6=2\\), which is correct.\n\n\\boxed{{Move(B2, B5), Move(C3, C5)}}"
+  },
+  {
+    "id": "00080024",
+    "level": 1,
+    "problem": "9+5=0",
+    "image": "level1/00080024_9+5=0.png",
+    "solution_num": [
+      2,
+      3
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "3 + 5 = 8",
+        "moves": [
+          "Move(A6, C0)"
+        ]
+      },
+      {
+        "solution": "9 - 9 = 0",
+        "moves": [
+          "Move(G0, B2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 6 = 0",
+        "moves": [
+          "Move(A2, A5)",
+          "Move(G0, B5)"
+        ]
+      },
+      {
+        "solution": "5 + 3 = 8",
+        "moves": [
+          "Move(A2, B2)",
+          "Move(B6, C0)"
+        ]
+      },
+      {
+        "solution": "3 + 6 = 9",
+        "moves": [
+          "Move(A6, B5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "A6",
+          "place": "C0"
+        },
+        {
+          "pick": "G0",
+          "place": "B2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "G0"
+          ],
+          "place": [
+            "A5",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B6"
+          ],
+          "place": [
+            "B2",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left matchstick of the left digit to the middle segment of the right digit. This changes **9 → 3** and **0 → 8**, making the equation **3 + 5 = 8**.\n\n\\boxed{{Move(A6, C0)}}"
+  },
+  {
+    "id": "00080088",
+    "level": 1,
+    "problem": "9+6=2",
+    "image": "level1/00080088_9+6=2.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "8 - 6 = 2",
+        "moves": [
+          "Move(G0, A5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 6 = 9",
+        "moves": [
+          "Move(A6, C3)",
+          "Move(C5, C6)"
+        ]
+      },
+      {
+        "solution": "3 + 5 = 8",
+        "moves": [
+          "Move(A6, C3)",
+          "Move(B5, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "G0",
+          "place": "A5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A6",
+            "C5"
+          ],
+          "place": [
+            "C3",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "B5"
+          ],
+          "place": [
+            "C3",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match from the **9** to the upper-left of the **2**, and move the lower-left match from the **6** to the lower-right of the **2**. This changes the equation from **9 + 6 = 2** to **3 + 5 = 8**, which is correct.\n\n\\boxed{Move(A6, C6), Move(B5, C3)}"
+  },
+  {
+    "id": "00080237",
+    "level": 1,
+    "problem": "9+9=0",
+    "image": "level1/00080237_9+9=0.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "0 + 0 = 0",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(B0, B5)"
+        ]
+      },
+      {
+        "solution": "0 + 9 = 9",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(C5, C0)"
+        ]
+      },
+      {
+        "solution": "9 + 0 = 9",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(C5, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "B0"
+          ],
+          "place": [
+            "A5",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "C5"
+          ],
+          "place": [
+            "A5",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle bar of the left `9` down to its lower-left segment to make `0`, and move the lower-left bar of the right `0` to its middle segment to make `9`. The equation becomes `0 + 9 = 9`, which is correct.\n\n\\boxed{{Move(A0, A5), Move(C5, C0)}}"
+  },
+  {
+    "id": "00086972",
+    "level": 1,
+    "problem": "9-3=9",
+    "image": "level1/00086972_9-3=9.png",
+    "solution_num": [
+      2,
+      4
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "9 - 3 = 6",
+        "moves": [
+          "Move(C2, C5)"
+        ]
+      },
+      {
+        "solution": "8 - 3 = 5",
+        "moves": [
+          "Move(C2, A5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "0 + 3 = 3",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(C6, G0)"
+        ]
+      },
+      {
+        "solution": "8 - 5 = 3",
+        "moves": [
+          "Move(B2, A5)",
+          "Move(C6, B6)"
+        ]
+      },
+      {
+        "solution": "3 + 3 = 6",
+        "moves": [
+          "Move(A6, G0)",
+          "Move(C2, C5)"
+        ]
+      },
+      {
+        "solution": "9 - 6 = 3",
+        "moves": [
+          "Move(B2, B5)",
+          "Move(C6, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "C2",
+          "place": "C5"
+        },
+        {
+          "pick": "C2",
+          "place": "A5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C6"
+          ],
+          "place": [
+            "A5",
+            "G0"
+          ]
+        },
+        {
+          "pick": [
+            "B2",
+            "C6"
+          ],
+          "place": [
+            "A5",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C2"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B2",
+            "C6"
+          ],
+          "place": [
+            "B5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of the second digit to its lower-left segment, turning the second **9** into **0**. The equation becomes **9 - 0 = 9**, which is correct.\n\n\\boxed{{Move(B0, B5)}}"
+  },
+  {
+    "id": "00087190",
+    "level": 1,
+    "problem": "9-7=5",
+    "image": "level1/00087190_9-7=5.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 7 = 2",
+        "moves": [
+          "Move(C3, C2)",
+          "Move(C6, C5)"
+        ]
+      },
+      {
+        "solution": "5 + 1 = 6",
+        "moves": [
+          "Move(A2, G0)",
+          "Move(B1, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C3",
+            "C6"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B1"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move two matches in the rightmost digit to turn **5** into **2**:\n- Move **C6** to **C2**\n- Move **C3** to **C5**\n\nThis makes the equation **9 - 7 = 2**, which is correct.\n\n\\boxed{{Move(C6, C2), Move(C3, C5)}}"
+  },
+  {
+    "id": "00000287",
+    "level": 2,
+    "problem": "0+7=10",
+    "image": "level2/00000287_0+7=10.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 7 = 15",
+        "moves": [
+          "Move(D2, A0)",
+          "Move(D5, D0)"
+        ]
+      },
+      {
+        "solution": "9 + 7 = 16",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(D2, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "D2",
+            "D5"
+          ],
+          "place": [
+            "A0",
+            "D0"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "D2"
+          ],
+          "place": [
+            "A0",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left stick of the first digit to its middle to turn **0 → 9**, and move the upper-right stick of the last digit to its middle to turn **0 → 6**. The equation becomes **9 + 7 = 16**, which is correct.\n\n\\boxed{{Move(A5, A0), Move(D2, D0)}}"
+  },
+  {
+    "id": "00005199",
+    "level": 2,
+    "problem": "0-9=19",
+    "image": "level2/00005199_0-9=19.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 5 = 13",
+        "moves": [
+          "Move(B2, G0)",
+          "Move(D6, A0)"
+        ]
+      },
+      {
+        "solution": "6 + 9 = 15",
+        "moves": [
+          "Move(A2, G0)",
+          "Move(D2, A0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D6"
+          ],
+          "place": [
+            "G0",
+            "A0"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "D2"
+          ],
+          "place": [
+            "G0",
+            "A0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **A2 → A0** to change the leftmost **0** into **6**.  \nMove **D2 → G1** to turn the **−** into **+**, while changing the rightmost **9** into **5**.  \nThe equation becomes **6 + 9 = 15**.\n\n\\boxed{{Move(D2, G1), Move(A2, A0)}}"
+  },
+  {
+    "id": "00014483",
+    "level": 2,
+    "problem": "1-81=9",
+    "image": "level2/00014483_1-81=9.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 - 01 = 3",
+        "moves": [
+          "Move(B0, A0)",
+          "Move(D6, A6)"
+        ]
+      },
+      {
+        "solution": "7 - 01 = 6",
+        "moves": [
+          "Move(B0, A1)",
+          "Move(D2, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D6"
+          ],
+          "place": [
+            "A0",
+            "A6"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "D2"
+          ],
+          "place": [
+            "A1",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of **8** to the top of the left **1**, making **7** and **0**; then move the upper-right match of **9** to its lower-left, making **6**. This gives **7 - 01 = 6**, i.e. **7 - 1 = 6**.\n\n\\boxed{{Move(B0, A1), Move(D2, D5)}}"
+  },
+  {
+    "id": "00019376",
+    "level": 2,
+    "problem": "2+87=6",
+    "image": "level2/00019376_2+87=6.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "2 + 03 = 5",
+        "moves": [
+          "Move(B0, C0)",
+          "Move(D5, C4)"
+        ]
+      },
+      {
+        "solution": "2 + 04 = 6",
+        "moves": [
+          "Move(B0, C0)",
+          "Move(C1, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D5"
+          ],
+          "place": [
+            "C0",
+            "C4"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C1"
+          ],
+          "place": [
+            "C0",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of **8** to the middle of **7**, turning **8 → 0** and starting **7 → 3**. Then move the lower-left match of **6** to the bottom of that same digit, completing **7 → 3** and making **6 → 5**. The equation becomes **2 + 03 = 5**, which is valid.\n\n\\boxed{{Move(B0, C0), Move(D5, C4)}}"
+  },
+  {
+    "id": "00028153",
+    "level": 2,
+    "problem": "3+89=3",
+    "image": "level2/00028153_3+89=3.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 06 = 9",
+        "moves": [
+          "Move(B0, C5)",
+          "Move(C2, D6)"
+        ]
+      },
+      {
+        "solution": "3 + 05 = 8",
+        "moves": [
+          "Move(B0, D5)",
+          "Move(C2, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "D6"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C2"
+          ],
+          "place": [
+            "D5",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of **B** to the upper-left segment of **D** so **8 → 0** and **3 → 9**. Then move the upper-right segment of **C** to its lower-left segment so **9 → 6**. The equation becomes **3 + 06 = 9**, i.e. **3 + 6 = 9**.\n\n\\boxed{{Move(B0, D6), Move(C2, C5)}}"
+  },
+  {
+    "id": "00037238",
+    "level": 2,
+    "problem": "4-2=63",
+    "image": "level2/00037238_4-2=63.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "4 - 2 = 02",
+        "moves": [
+          "Move(C0, C2)",
+          "Move(D3, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C0",
+            "D3"
+          ],
+          "place": [
+            "C2",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of the **6** to its upper-right segment to make **0**, and move the lower-right segment of the **3** to its lower-left segment to make **2**. Then the equation becomes **4 - 2 = 02**, which is valid.\n\n\\boxed{{Move(C0, C2), Move(D3, D5)}}"
+  },
+  {
+    "id": "00039989",
+    "level": 2,
+    "problem": "5+3=77",
+    "image": "level2/00039989_5+3=77.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 3 = 11",
+        "moves": [
+          "Move(C1, A2)",
+          "Move(D1, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C1",
+            "D1"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top matchsticks from the two right-side 7s to the two missing segments of the left 5. Then the left digit becomes 8, and each 7 becomes 1, making the equation \\(8+3=11\\).\n\n\\boxed{{Move(C1, A2), Move(D1, A5)}}"
+  },
+  {
+    "id": "00048321",
+    "level": 2,
+    "problem": "5-67=5",
+    "image": "level2/00048321_5-67=5.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 - 01 = 5",
+        "moves": [
+          "Move(B0, A5)",
+          "Move(C1, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C1"
+          ],
+          "place": [
+            "A5",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move B0 to B2 to change **6 → 0**, and move C1 to A5 to change **7 → 1** while also changing **5 → 6**. The equation becomes **6 - 01 = 5**, i.e. **6 - 1 = 5**.\n\n\\boxed{\\text{Move(B0, B2), Move(C1, A5)}}"
+  },
+  {
+    "id": "00049755",
+    "level": 2,
+    "problem": "6+2=79",
+    "image": "level2/00049755_6+2=79.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 2 = 10",
+        "moves": [
+          "Move(C1, A2)",
+          "Move(D0, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C1",
+            "D0"
+          ],
+          "place": [
+            "A2",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **C1** to **D5**: this turns **7** into **1** and **9** into **8**.  \nThen move **D0** to **A2**: this turns **8** into **0** and **6** into **8**.  \nThe equation becomes **8 + 2 = 10**, which is correct.\n\n\\boxed{{Move(C1, D5), Move(D0, A2)}}"
+  },
+  {
+    "id": "00068361",
+    "level": 2,
+    "problem": "8+1=57",
+    "image": "level2/00068361_8+1=57.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "6 + 1 = 07",
+        "moves": [
+          "Move(A2, C2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "8 - 1 = 07",
+        "moves": [
+          "Move(G0, C2)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the left **8** to the lower-left segment of the **5**, turning **8 → 6** and partially fixing the **5**. Then move the middle segment of that **5** to its upper-right segment, turning **5 → 0**. The equation becomes **6 + 1 = 07**, i.e. **6 + 1 = 7**.\n\n\\boxed{{Move(A2, C5), Move(C0, C2)}}"
+  },
+  {
+    "id": "00068454",
+    "level": 2,
+    "problem": "8+3=12",
+    "image": "level2/00068454_8+3=12.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 5 = 13",
+        "moves": [
+          "Move(B2, B6)",
+          "Move(D5, D3)"
+        ]
+      },
+      {
+        "solution": "6 + 6 = 12",
+        "moves": [
+          "Move(A2, B5)",
+          "Move(B2, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D5"
+          ],
+          "place": [
+            "B6",
+            "D3"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B2"
+          ],
+          "place": [
+            "B5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the left `8` to the lower-left of the `3`, turning `8` into `6`. Then move the upper-right match of that `3` to its upper-left, turning it into `6`. The equation becomes `6 + 6 = 12`, which is correct.\n\n\\boxed{{Move(A2, B5), Move(B2, B6)}}"
+  },
+  {
+    "id": "00068725",
+    "level": 2,
+    "problem": "8+9=18",
+    "image": "level2/00068725_8+9=18.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "8 + 8 = 16",
+        "moves": [
+          "Move(D2, B5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "D2",
+          "place": "B5"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right matchstick of the last digit `8` from `D2` to the missing lower-left segment of `9` at `B5`. This changes the equation from `8 + 9 = 18` to `8 + 8 = 16`, which is correct.\n\n\\boxed{{Move(D2, B5)}}"
+  },
+  {
+    "id": "00075370",
+    "level": 2,
+    "problem": "8-4=12",
+    "image": "level2/00075370_8-4=12.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 + 4 = 13",
+        "moves": [
+          "Move(A5, G0)",
+          "Move(D5, D3)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "D5"
+          ],
+          "place": [
+            "G0",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match of the second digit to the vertical segment of the minus sign. This turns the second digit into **4** and the minus into **+**, giving **8 + 4 = 12**.\n\n\\boxed{{Move(B1, G1)}}"
+  },
+  {
+    "id": "00078214",
+    "level": 2,
+    "problem": "8-68=8",
+    "image": "level2/00078214_8-68=8.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 00 = 8",
+        "moves": [
+          "Move(B0, G0)",
+          "Move(C0, B2)"
+        ]
+      },
+      {
+        "solution": "0 + 08 = 8",
+        "moves": [
+          "Move(A0, G0)",
+          "Move(B0, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "G0",
+            "B2"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "B0"
+          ],
+          "place": [
+            "G0",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of **B** to its missing upper-right segment so **6 → 0**. Then move the middle segment of **C** to the center operator’s vertical segment so **8 → 0** and **− → +**. This gives **8 + 00 = 8**, which is valid.\n\n\\boxed{{Move(B0, B2), Move(C0, G1)}}"
+  },
+  {
+    "id": "00079635",
+    "level": 2,
+    "problem": "8-98=6",
+    "image": "level2/00079635_8-98=6.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 - 08 = 0",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(D0, D2)"
+        ]
+      },
+      {
+        "solution": "8 - 00 = 8",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(C0, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D0"
+          ],
+          "place": [
+            "B5",
+            "D2"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "B5",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **B0 → B5** to turn the **9** into **0**. Then move **C0 → D2** so the middle segment is removed from the second **8** (making it **0**) and added to the **6** (making it **8**).  \nThis gives the valid equation **8 - 00 = 8**.\n\n\\boxed{{Move(B0, B5), Move(C0, D2)}}"
+  },
+  {
+    "id": "00087105",
+    "level": 2,
+    "problem": "9-5=45",
+    "image": "level2/00087105_9-5=45.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 + 6 = 15",
+        "moves": [
+          "Move(C0, G0)",
+          "Move(C6, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C0",
+            "C6"
+          ],
+          "place": [
+            "G0",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match of the **4** to the lower-left of the **5** so that **4 → 1** and **5 → 6**. Then move the middle match of that same **4** to the vertical segment of the operator so that **- → +**.  \nThis gives the correct equation: **9 + 6 = 15**.\n\n\\boxed{{Move(C6, B5), Move(C0, G1)}}"
+  },
+  {
+    "id": "00087279",
+    "level": 2,
+    "problem": "9-8=65",
+    "image": "level2/00087279_9-8=65.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "9 - 0 = 09",
+        "moves": [
+          "Move(B0, C2)",
+          "Move(C0, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of the `6` to its upper-right to make `0`, and move the middle segment of the `8` to the upper-right of the `5` to make `0` and `9`. The equation becomes `9 - 0 = 09`, which is valid.\n\n\\boxed{{Move(C0, C2), Move(B0, D2)}}"
+  },
+  {
+    "id": "00205731",
+    "level": 2,
+    "problem": "09+9=0",
+    "image": "level2/00205731_09+9=0.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "00 + 9 = 9",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(D5, D0)"
+        ]
+      },
+      {
+        "solution": "00 + 0 = 0",
+        "moves": [
+          "Move(B0, B5)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "09 + 0 = 9",
+        "moves": [
+          "Move(C0, C5)",
+          "Move(D5, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B0",
+            "D5"
+          ],
+          "place": [
+            "B5",
+            "D0"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C0"
+          ],
+          "place": [
+            "B5",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "C0",
+            "D5"
+          ],
+          "place": [
+            "C5",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of the third digit to its lower-left to change **9 → 0**, and move the lower-left match of the last digit to the middle to change **0 → 9**. The equation becomes **09 + 0 = 9**, which is correct.\n\n\\boxed{{Move(C0, C5), Move(D5, D0)}}"
+  },
+  {
+    "id": "00945521",
+    "level": 2,
+    "problem": "68+7=3",
+    "image": "level2/00945521_68+7=3.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "08 + 1 = 9",
+        "moves": [
+          "Move(A0, A2)",
+          "Move(C1, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C1"
+          ],
+          "place": [
+            "A2",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of the first digit to its upper-right to turn **6 → 0**. Then move the top match of **7** to the upper-left of **3**, turning **7 → 1** and **3 → 9**. The equation becomes **08 + 1 = 9**, which is correct.\n\n\\boxed{{Move(A0, A2), Move(C1, D6)}}"
+  },
+  {
+    "id": "00952319",
+    "level": 2,
+    "problem": "68-6=1",
+    "image": "level2/00952319_68-6=1.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "09 - 8 = 1",
+        "moves": [
+          "Move(A0, A2)",
+          "Move(B5, C2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "B5"
+          ],
+          "place": [
+            "A2",
+            "C2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of the first digit to its upper-right to turn **6 → 0**, and move the lower-left match of the second digit to the upper-right of the third digit to turn **8 → 9** and **6 → 8**. The equation becomes **09 - 8 = 1**, which is valid.\n\n\\boxed{{Move(A0, A2), Move(B5, C2)}}"
+  },
+  {
+    "id": "01040722",
+    "level": 2,
+    "problem": "75-9=5",
+    "image": "level2/01040722_75-9=5.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "15 - 9 = 6",
+        "moves": [
+          "Move(A1, D5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "13 - 8 = 5",
+        "moves": [
+          "Move(A1, B2)",
+          "Move(B6, C5)"
+        ]
+      },
+      {
+        "solution": "15 - 6 = 9",
+        "moves": [
+          "Move(A1, C5)",
+          "Move(C2, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "A1",
+          "place": "D5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A1",
+            "B6"
+          ],
+          "place": [
+            "B2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match of the first digit so the **7** becomes **1**, and place it on the lower-left segment of the last digit so the **5** becomes **6**.  \nThis changes the equation from **75 - 9 = 5** to **15 - 9 = 6**, which is correct.\n\n\\boxed{Move(A1, D5)}"
+  },
+  {
+    "id": "01179327",
+    "level": 2,
+    "problem": "85-8=3",
+    "image": "level2/01179327_85-8=3.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "09 - 0 = 9",
+        "moves": [
+          "Move(A0, B2)",
+          "Move(C0, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C0"
+          ],
+          "place": [
+            "B2",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of the first `8` to `B2` so `8→0` and `5→9`, then move the middle segment of the second `8` to `D6` so `8→0` and `3→9`. The equation becomes `09 - 0 = 9`, which is correct.\n\n\\boxed{{Move(A0, B2), Move(C0, D6)}}"
+  },
+  {
+    "id": "01210610",
+    "level": 2,
+    "problem": "87-3=9",
+    "image": "level2/01210610_87-3=9.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "07 + 2 = 9",
+        "moves": [
+          "Move(A0, G0)",
+          "Move(C3, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "C3"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of the first digit to turn the minus into a plus, so **8 → 0** and **− → +**. Then move the lower-right match of **3** to its lower-left to make **2**. The equation becomes **07 + 2 = 9**, which is valid.\n\n\\boxed{{Move(A0, G0), Move(C3, C5)}}"
+  },
+  {
+    "id": "01304088",
+    "level": 2,
+    "problem": "93-1=4",
+    "image": "level2/01304088_93-1=4.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "05 - 1 = 4",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(B2, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A0",
+            "B2"
+          ],
+          "place": [
+            "A5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Reasoning: Move **A0 to A5** to change **9 → 0**, and move **B2 to B6** to change **3 → 5**. The equation becomes **05 - 1 = 4**, i.e. **5 - 1 = 4**, which is correct.\n\n\\boxed{{Move(A0, A5), Move(B2, B6)}}"
+  },
+  {
+    "id": "01393262",
+    "level": 2,
+    "problem": "99+5=0",
+    "image": "level2/01393262_99+5=0.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "09 - 9 = 0",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(A0, C2)"
+        ]
+      },
+      {
+        "solution": "03 + 5 = 8",
+        "moves": [
+          "Move(A0, A5)",
+          "Move(B6, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "A0"
+          ],
+          "place": [
+            "A5",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "B6"
+          ],
+          "place": [
+            "A5",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of the first `9` to its lower-left to turn it into `0`, and move the upper-left segment of the second `9` to the middle of `0` on the right to turn them into `3` and `8`. The equation becomes `03 + 5 = 8`, i.e. `3 + 5 = 8`.\n\n\\boxed{{Move(A0, A5), Move(B6, D0)}}"
+  },
+  {
+    "id": "00024362",
+    "level": 3,
+    "problem": "3+21=48",
+    "image": "level3/00024362_3+21=48.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 37 = 40",
+        "moves": [
+          "Move(E0, B3)",
+          "Move(B5, C1)"
+        ]
+      },
+      {
+        "solution": "9 + 31 = 40",
+        "moves": [
+          "Move(E0, A6)",
+          "Move(B5, B3)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E0",
+            "B5"
+          ],
+          "place": [
+            "B3",
+            "C1"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "B5"
+          ],
+          "place": [
+            "A6",
+            "B3"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of **8** to the top of **1**, so **8 → 0** and **1 → 7**. Then move the lower-left segment of **2** to the lower-right, so **2 → 3**.  \nThis makes the equation **3 + 37 = 40**, which is correct.\n\n\\boxed{{Move(E0, C1), Move(B5, B3)}}"
+  },
+  {
+    "id": "00034804",
+    "level": 3,
+    "problem": "4+52=95",
+    "image": "level3/00034804_4+52=95.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "4 + 52 = 56",
+        "moves": [
+          "Move(D2, E5)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "3 + 52 = 55",
+        "moves": [
+          "Move(A6, A1)",
+          "Move(D2, A4)"
+        ]
+      },
+      {
+        "solution": "4 + 32 = 36",
+        "moves": [
+          "Move(B6, E5)",
+          "Move(D6, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "D2",
+          "place": "E5"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "A6",
+            "D2"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        },
+        {
+          "pick": [
+            "B6",
+            "D6"
+          ],
+          "place": [
+            "E5",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match from the **9** to the lower-left segment of the final **5**. This changes the equation from **4 + 52 = 95** to **4 + 52 = 56**, which is correct.\n\n\\boxed{{Move(D2, E5)}}"
+  },
+  {
+    "id": "00041511",
+    "level": 3,
+    "problem": "5+23=40",
+    "image": "level3/00041511_5+23=40.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 35 = 40",
+        "moves": [
+          "Move(B5, B3)",
+          "Move(C2, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "C2"
+          ],
+          "place": [
+            "B3",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **B5 → B3** to change **2** into **3**, and move **C2 → C6** to change **3** into **5**. The equation becomes **5 + 35 = 40**, which is correct.\n\n\\boxed{{Move(B5, B3), Move(C2, C6)}}"
+  },
+  {
+    "id": "00048210",
+    "level": 3,
+    "problem": "5-63=90",
+    "image": "level3/00048210_5-63=90.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "5 + 53 = 58",
+        "moves": [
+          "Move(B5, G0)",
+          "Move(D2, E0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "D2"
+          ],
+          "place": [
+            "G0",
+            "E0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move one match from **B5** to the vertical segment of **G** to turn `-` into `+` and change **6 → 5**. Then move **D2** to **E0** to change **9 → 5** and **0 → 8**. The equation becomes **5 + 53 = 58**, which is correct.\n\n\\boxed{{Move(B5, G1), Move(D2, E0)}}"
+  },
+  {
+    "id": "00061243",
+    "level": 3,
+    "problem": "7+24=51",
+    "image": "level3/00061243_7+24=51.png",
+    "solution_num": [
+      1,
+      0
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "7 + 24 = 31",
+        "moves": [
+          "Move(D6, D2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "D6",
+          "place": "D2"
+        }
+      ],
+      "mode_2": []
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left segment of the first result digit from **D6** to the missing upper-right segment **D2**. This changes **5** into **3**, so the equation becomes **7 + 24 = 31**, which is correct.\n\n\\boxed{{Move(D6, D2)}}"
+  },
+  {
+    "id": "00079328",
+    "level": 3,
+    "problem": "8-91=93",
+    "image": "level3/00079328_8-91=93.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "8 + 51 = 59",
+        "moves": [
+          "Move(B2, G0)",
+          "Move(D2, E6)"
+        ]
+      },
+      {
+        "solution": "8 + 31 = 39",
+        "moves": [
+          "Move(B6, G0)",
+          "Move(D6, E6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D2"
+          ],
+          "place": [
+            "G0",
+            "E6"
+          ]
+        },
+        {
+          "pick": [
+            "B6",
+            "D6"
+          ],
+          "place": [
+            "G0",
+            "E6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the first 9 to the upper-left of the 3, turning `91` into `59` on the right and `9` into `5` on the left. Then move the upper-right match of the result’s tens digit to the vertical segment of the operator, turning `-` into `+` and that `9` into `5`. This gives `8 + 51 = 59`.\n\n\\boxed{{Move(D2, G1), Move(B2, E6)}}"
+  },
+  {
+    "id": "00205563",
+    "level": 3,
+    "problem": "09+6=84",
+    "image": "level3/00205563_09+6=84.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "03 + 6 = 09",
+        "moves": [
+          "Move(B6, E1)",
+          "Move(D0, E4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B6",
+            "D0"
+          ],
+          "place": [
+            "E1",
+            "E4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left matchstick from the digit **6** to the middle segment of the leftmost **0**. This changes **0 → 8** and **6 → 5**, giving the valid equation **89 + 5 = 94**.\n\n\\boxed{{Move(C5, A0)}}"
+  },
+  {
+    "id": "00402383",
+    "level": 3,
+    "problem": "26+2=29",
+    "image": "level3/00402383_26+2=29.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "26 + 3 = 29",
+        "moves": [
+          "Move(C5, C3)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "25 + 3 = 28",
+        "moves": [
+          "Move(B5, E5)",
+          "Move(C5, C3)"
+        ]
+      },
+      {
+        "solution": "28 - 2 = 26",
+        "moves": [
+          "Move(G0, E5)",
+          "Move(E2, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "C5",
+          "place": "C3"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "C5"
+          ],
+          "place": [
+            "E5",
+            "C3"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "E2"
+          ],
+          "place": [
+            "E5",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left matchstick of the digit **C** to its lower-right position, changing **2** into **3**.  \nThis makes the equation **26 + 3 = 29**, which is correct.\n\n\\boxed{{Move(C5, C3)}}"
+  },
+  {
+    "id": "00471089",
+    "level": 3,
+    "problem": "31-4=97",
+    "image": "level3/00471089_31-4=97.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "61 - 4 = 57",
+        "moves": [
+          "Move(A2, A5)",
+          "Move(D2, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "D2"
+          ],
+          "place": [
+            "A5",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top matchstick of the middle digit to the vertical segment of the minus sign. This turns the malformed middle digit into **4** and the minus into **+**, giving the correct equation **31 + 4 = 37**.\n\n\\boxed{{Move(C1, G1)}}"
+  },
+  {
+    "id": "00494862",
+    "level": 3,
+    "problem": "33+89=7",
+    "image": "level3/00494862_33+89=7.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "93 - 86 = 7",
+        "moves": [
+          "Move(G0, A6)",
+          "Move(D2, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "D2"
+          ],
+          "place": [
+            "A6",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the vertical match of the plus sign to **A6** so the `+` becomes `-` and the first `3` becomes `9`. Then move **D2** to **D5** to turn the `9` into `6`. The equation becomes:\n\n**93 - 86 = 7**\n\n\\boxed{{Move(G0, A6), Move(D2, D5)}}"
+  },
+  {
+    "id": "00530671",
+    "level": 3,
+    "problem": "36+20=9",
+    "image": "level3/00530671_36+20=9.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "38 - 29 = 9",
+        "moves": [
+          "Move(G0, B2)",
+          "Move(D5, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "D5"
+          ],
+          "place": [
+            "B2",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the vertical match from the plus sign to the upper-right segment of **B**. This changes **+** to **−** and turns **6** into **8**. Then move **D5** to **D0** to turn **0** into **9**. The equation becomes:\n\n**38 − 29 = 9**\n\n\\boxed{{Move(G0, B2), Move(D5, D0)}}"
+  },
+  {
+    "id": "00562419",
+    "level": 3,
+    "problem": "38+75=5",
+    "image": "level3/00562419_38+75=5.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "80 - 75 = 5",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(B0, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "B0"
+          ],
+          "place": [
+            "A5",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the vertical match from the plus sign to the upper-left of the first digit, turning `+` into `-` and changing `3` toward `8`. Then move the middle match of the second digit to the lower-left of the first digit, turning `8` into `0` and completing the first digit as `8`. The equation becomes `80 - 75 = 5`, which is correct.\n\n\\boxed{{Move(G0, A6), Move(B0, A5)}}"
+  },
+  {
+    "id": "00599437",
+    "level": 3,
+    "problem": "41+9=34",
+    "image": "level3/00599437_41+9=34.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "31 + 3 = 34",
+        "moves": [
+          "Move(A6, A1)",
+          "Move(C6, A4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A6",
+            "C6"
+          ],
+          "place": [
+            "A1",
+            "A4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match of the **9** to the top of the first **4**, and move the upper-left match of the first **4** to its bottom. This changes the equation from **41 + 9 = 34** to **31 + 3 = 34**, which is correct.\n\n\\boxed{{Move(C6, A1), Move(A6, A4)}}"
+  },
+  {
+    "id": "00727809",
+    "level": 3,
+    "problem": "52-2=53",
+    "image": "level3/00727809_52-2=53.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "55 - 2 = 53",
+        "moves": [
+          "Move(B2, B3)",
+          "Move(B5, B6)"
+        ]
+      },
+      {
+        "solution": "52 + 2 = 54",
+        "moves": [
+          "Move(E1, G0)",
+          "Move(E4, E6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "B5"
+          ],
+          "place": [
+            "B3",
+            "B6"
+          ]
+        },
+        {
+          "pick": [
+            "E1",
+            "E4"
+          ],
+          "place": [
+            "G0",
+            "E6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Change the second digit from **2** to **5** by swapping its right/left side matches: move the upper-right match to the upper-left, and the lower-left match to the lower-right. Then the equation becomes **55 - 2 = 53**, which is correct.\n\n\\boxed{Move(B2, B6), Move(B5, B3)}"
+  },
+  {
+    "id": "00767333",
+    "level": 3,
+    "problem": "55-06=0",
+    "image": "level3/00767333_55-06=0.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "56 - 56 = 0",
+        "moves": [
+          "Move(C2, B5)",
+          "Move(C5, C0)"
+        ]
+      },
+      {
+        "solution": "05 - 05 = 0",
+        "moves": [
+          "Move(A0, A2)",
+          "Move(D5, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C2",
+            "C5"
+          ],
+          "place": [
+            "B5",
+            "C0"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "D5"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move two matches in the second number and the ones digit of the first number:\n- Move **C5 → C0** to change **C** from 0 to 9 temporarily.\n- Move **C2 → B5** to change **C** from 9 to 5 and **B** from 5 to 6.\n\nThis gives the valid equation **56 - 56 = 0**.\n\n\\boxed{{Move(C5, C0), Move(C2, B5)}}"
+  },
+  {
+    "id": "00819041",
+    "level": 3,
+    "problem": "59+2=94",
+    "image": "level3/00819041_59+2=94.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "96 - 2 = 94",
+        "moves": [
+          "Move(G0, A2)",
+          "Move(B2, B5)"
+        ]
+      },
+      {
+        "solution": "92 + 2 = 94",
+        "moves": [
+          "Move(B3, A2)",
+          "Move(B6, B5)"
+        ]
+      },
+      {
+        "solution": "89 + 2 = 91",
+        "moves": [
+          "Move(E0, A2)",
+          "Move(E6, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "B2"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "B3",
+            "B6"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "E6"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two extra matches from the final digit **4** to the missing segments of the first digit **5**:\n- Remove **E6** and **E0** from **4**, turning it into **1**.\n- Place them at **A5** and **A2**, turning **5** into **8**.\n\nThis gives the correct equation: **89 + 2 = 91**.\n\n\\boxed{\\text{Move(E6, A5), Move(E0, A2)}}"
+  },
+  {
+    "id": "00932744",
+    "level": 3,
+    "problem": "67+9=19",
+    "image": "level3/00932744_67+9=19.png",
+    "solution_num": [
+      0,
+      5
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "07 + 8 = 15",
+        "moves": [
+          "Move(E2, A2)",
+          "Move(A0, C5)"
+        ]
+      },
+      {
+        "solution": "07 + 9 = 16",
+        "moves": [
+          "Move(E2, E5)",
+          "Move(A0, A2)"
+        ]
+      },
+      {
+        "solution": "61 + 9 = 70",
+        "moves": [
+          "Move(E0, E5)",
+          "Move(B1, D1)"
+        ]
+      },
+      {
+        "solution": "67 + 3 = 70",
+        "moves": [
+          "Move(E0, E5)",
+          "Move(C6, D1)"
+        ]
+      },
+      {
+        "solution": "67 + 6 = 73",
+        "moves": [
+          "Move(E6, C5)",
+          "Move(C2, D1)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E2",
+            "A0"
+          ],
+          "place": [
+            "A2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "E2",
+            "A0"
+          ],
+          "place": [
+            "E5",
+            "A2"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "B1"
+          ],
+          "place": [
+            "E5",
+            "D1"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "C6"
+          ],
+          "place": [
+            "E5",
+            "D1"
+          ]
+        },
+        {
+          "pick": [
+            "E6",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "D1"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match of **B** to the top of **D**, turning **7 → 1** and **1 → 7**. Then move the middle match of **E** to its lower-left side, turning **9 → 0**.  \nThis gives the correct equation: **61 + 9 = 70**.\n\n\\boxed{{Move(B1, D1), Move(E0, E5)}}"
+  },
+  {
+    "id": "00971572",
+    "level": 3,
+    "problem": "69-33=2",
+    "image": "level3/00971572_69-33=2.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "65 - 63 = 2",
+        "moves": [
+          "Move(B2, C5)",
+          "Move(C2, C6)"
+        ]
+      },
+      {
+        "solution": "95 - 93 = 2",
+        "moves": [
+          "Move(A5, A2)",
+          "Move(B2, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "C2"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        },
+        {
+          "pick": [
+            "A5",
+            "B2"
+          ],
+          "place": [
+            "A2",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of **9** to the lower-left of the first **3**, turning **9 → 5**. Then move that first **3**’s upper-right match to its upper-left, turning it into **6**. The equation becomes:\n\n**65 - 63 = 2**, which is correct.\n\n\\boxed{{Move(B2, C5), Move(C2, C6)}}"
+  },
+  {
+    "id": "01102209",
+    "level": 3,
+    "problem": "80+55=5",
+    "image": "level3/01102209_80+55=5.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "90 - 85 = 5",
+        "moves": [
+          "Move(G0, C2)",
+          "Move(A5, C5)"
+        ]
+      },
+      {
+        "solution": "00 + 05 = 5",
+        "moves": [
+          "Move(A0, C2)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "A5"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle match of the first digit `A` to the upper-right of `C`, and move the middle match of `C` to its lower-left. This changes the equation from `80 + 55 = 5` to `00 + 05 = 5`, which is valid.\n\n\\boxed{{Move(A0, C2), Move(C0, C5)}}"
+  },
+  {
+    "id": "01134803",
+    "level": 3,
+    "problem": "82-9=70",
+    "image": "level3/01134803_82-9=70.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "82 - 6 = 76",
+        "moves": [
+          "Move(E2, E0)",
+          "Move(C2, C5)"
+        ]
+      },
+      {
+        "solution": "83 - 5 = 78",
+        "moves": [
+          "Move(B5, E0)",
+          "Move(C2, B3)"
+        ]
+      },
+      {
+        "solution": "02 + 8 = 10",
+        "moves": [
+          "Move(A0, G0)",
+          "Move(D1, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E2",
+            "C2"
+          ],
+          "place": [
+            "E0",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B5",
+            "C2"
+          ],
+          "place": [
+            "E0",
+            "B3"
+          ]
+        },
+        {
+          "pick": [
+            "A0",
+            "D1"
+          ],
+          "place": [
+            "G0",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of **B** to its upper-left to turn **2 → 5**, and move the upper-right match of **E** to the middle to turn **0 → 6**. The equation becomes **85 - 9 = 76**, which is correct.\n\n\\boxed{{Move(B2, B6), Move(E2, E0)}}"
+  },
+  {
+    "id": "01195718",
+    "level": 3,
+    "problem": "86-6=26",
+    "image": "level3/01195718_86-6=26.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "36 - 8 = 28",
+        "moves": [
+          "Move(A5, E2)",
+          "Move(A6, C2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "E2",
+            "C2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two left vertical matches from the first digit to the missing upper-right segments of the third and fifth digits. This changes the equation from **86 - 6 = 26** to **36 - 8 = 28**, which is correct.\n\n\\boxed{Move(A6, C2), Move(A5, E2)}"
+  },
+  {
+    "id": "01211036",
+    "level": 3,
+    "problem": "87-8=74",
+    "image": "level3/01211036_87-8=74.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "81 - 8 = 73",
+        "moves": [
+          "Move(E6, E1)",
+          "Move(B1, E4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E6",
+            "B1"
+          ],
+          "place": [
+            "E1",
+            "E4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match of the left `7` to the top of the right `4`, then move that `4`’s upper-left match to its bottom. This changes the equation to `81 - 8 = 73`, which is correct.\n\n\\boxed{{Move(B1, E1), Move(E6, E4)}}"
+  },
+  {
+    "id": "01257340",
+    "level": 3,
+    "problem": "90+86=0",
+    "image": "level3/01257340_90+86=0.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "80 - 80 = 0",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(D0, D2)"
+        ]
+      },
+      {
+        "solution": "86 - 86 = 0",
+        "moves": [
+          "Move(G0, A5)",
+          "Move(B2, B0)"
+        ]
+      },
+      {
+        "solution": "98 - 98 = 0",
+        "moves": [
+          "Move(G0, B0)",
+          "Move(C5, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "D0"
+          ],
+          "place": [
+            "A5",
+            "D2"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "B2"
+          ],
+          "place": [
+            "A5",
+            "B0"
+          ]
+        },
+        {
+          "pick": [
+            "G0",
+            "C5"
+          ],
+          "place": [
+            "B0",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the vertical match from the plus sign to **B0**, so **90 + 86 = 0** becomes **98 - 86 = 0**. Then move **C5** to **D2**, changing **86** into **98**. The final equation is **98 - 98 = 0**, which is correct.\n\n\\boxed{Move(G0, B0), Move(C5, D2)}"
+  },
+  {
+    "id": "01371171",
+    "level": 3,
+    "problem": "97-38=5",
+    "image": "level3/01371171_97-38=5.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "87 - 78 = 9",
+        "moves": [
+          "Move(C0, E2)",
+          "Move(C4, A5)"
+        ]
+      },
+      {
+        "solution": "43 - 38 = 5",
+        "moves": [
+          "Move(A1, B0)",
+          "Move(A4, B4)"
+        ]
+      },
+      {
+        "solution": "37 - 28 = 9",
+        "moves": [
+          "Move(A6, E2)",
+          "Move(C3, C5)"
+        ]
+      },
+      {
+        "solution": "91 - 86 = 5",
+        "moves": [
+          "Move(B1, C5)",
+          "Move(D2, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C0",
+            "C4"
+          ],
+          "place": [
+            "E2",
+            "A5"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "A4"
+          ],
+          "place": [
+            "B0",
+            "B4"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C3"
+          ],
+          "place": [
+            "E2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "B1",
+            "D2"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match from the `7` to the missing lower-left segment of the `9`, turning `97 - 98 = 5` into `91 - 88 = 5`. Then move the upper-left match of the `5` to its upper-right segment, turning `5` into `3`. The equation becomes `91 - 88 = 3`, which is correct.\n\n\\boxed{{Move(B1, C5), Move(E6, E2)}}"
+  },
+  {
+    "id": "01372355",
+    "level": 3,
+    "problem": "97-55=2",
+    "image": "level3/01372355_97-55=2.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "61 - 59 = 2",
+        "moves": [
+          "Move(A2, A5)",
+          "Move(B1, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "B1"
+          ],
+          "place": [
+            "A5",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **A2 to A5** to change the leftmost **9** into **6**. Then move **B1 to D2** to change **7** into **1** and **5** into **9**. The equation becomes **61 - 59 = 2**, which is correct.\n\n\\boxed{{Move(A2, A5), Move(B1, D2)}}"
+  },
+  {
+    "id": "00112779",
+    "level": 4,
+    "problem": "01-62=76",
+    "image": "level4/00112779_01-62=76.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "81 - 62 = 19",
+        "moves": [
+          "Move(E1, A0)",
+          "Move(F5, F2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E1",
+            "F5"
+          ],
+          "place": [
+            "A0",
+            "F2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **E1** to **A0** to turn the leftmost **0** into **8** and the right-side **7** into **1**. Then move **F5** to **F2** to turn the final **6** into **9**. The equation becomes **81 - 62 = 19**, which is correct.\n\n\\boxed{{Move(E1, A0), Move(F5, F2)}}"
+  },
+  {
+    "id": "00130060",
+    "level": 4,
+    "problem": "03+58=45",
+    "image": "level4/00130060_03+58=45.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "83 - 38 = 45",
+        "moves": [
+          "Move(G0, A0)",
+          "Move(C6, C2)"
+        ]
+      },
+      {
+        "solution": "09 + 36 = 45",
+        "moves": [
+          "Move(C6, B6)",
+          "Move(D2, C2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C6"
+          ],
+          "place": [
+            "A0",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "C6",
+            "D2"
+          ],
+          "place": [
+            "B6",
+            "C2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the **8** to the missing upper-left segment of the **3**, turning **8 → 6** and **3 → 9**. Then move the upper-left match of the **5** to its upper-right segment, turning **5 → 3**. The equation becomes **09 + 36 = 45**, which is correct.\n\n\\boxed{{Move(D2, B6), Move(C6, C2)}}"
+  },
+  {
+    "id": "00167126",
+    "level": 4,
+    "problem": "06+45=83",
+    "image": "level4/00167126_06+45=83.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "38 + 45 = 83",
+        "moves": [
+          "Move(A5, A0)",
+          "Move(A6, B2)"
+        ]
+      },
+      {
+        "solution": "08 + 75 = 83",
+        "moves": [
+          "Move(C0, B2)",
+          "Move(C6, C1)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "A0",
+            "B2"
+          ]
+        },
+        {
+          "pick": [
+            "C0",
+            "C6"
+          ],
+          "place": [
+            "B2",
+            "C1"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two left vertical matchsticks from the first digit `A` (currently `0`). Put one on `A0` to create the middle bar, turning `0` into `3`, and put the other on `B2` to add the missing upper-right segment to `6`, turning it into `8`. The equation becomes `38 + 45 = 83`, which is correct.\n\n\\boxed{{Move(A5, A0), Move(A6, B2)}}"
+  },
+  {
+    "id": "00172602",
+    "level": 4,
+    "problem": "06-15=97",
+    "image": "level4/00172602_06-15=97.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "96 - 15 = 81",
+        "moves": [
+          "Move(A5, E5)",
+          "Move(F1, A0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "F1"
+          ],
+          "place": [
+            "E5",
+            "A0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match of the first digit to its middle segment, turning **0 → 9**. Then move the top match of the last digit to the lower-left segment of the fifth digit, turning **7 → 1** and **9 → 8**. The equation becomes:\n\n**96 - 15 = 81**, which is correct.\n\n\\boxed{{Move(A5, A0), Move(F1, E5)}}"
+  },
+  {
+    "id": "00199995",
+    "level": 4,
+    "problem": "08-23=46",
+    "image": "level4/00199995_08-23=46.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "68 - 22 = 46",
+        "moves": [
+          "Move(A2, A0)",
+          "Move(D3, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "D3"
+          ],
+          "place": [
+            "A0",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the first digit to its middle to turn **0 → 6**, and move the lower-right match of the fourth digit to its lower-left to turn **3 → 2**.  \nThe equation becomes **68 - 22 = 46**, which is correct.\n\n\\boxed{{Move(A2, A0), Move(D3, D5)}}"
+  },
+  {
+    "id": "00214491",
+    "level": 4,
+    "problem": "09-07=05",
+    "image": "level4/00214491_09-07=05.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "05 + 01 = 06",
+        "moves": [
+          "Move(B2, G0)",
+          "Move(D1, F5)"
+        ]
+      },
+      {
+        "solution": "09 - 07 = 02",
+        "moves": [
+          "Move(F3, F2)",
+          "Move(F6, F5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B2",
+            "D1"
+          ],
+          "place": [
+            "G0",
+            "F5"
+          ]
+        },
+        {
+          "pick": [
+            "F3",
+            "F6"
+          ],
+          "place": [
+            "F2",
+            "F5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move two matches in the last digit to change **5** into **2**: shift the upper-left segment to the upper-right, and the lower-right segment to the lower-left. Then the equation becomes **09 - 07 = 02**, which is correct.\n\n\\boxed{{Move(F6, F2), Move(F3, F5)}}"
+  },
+  {
+    "id": "00234817",
+    "level": 4,
+    "problem": "11+36=77",
+    "image": "level4/00234817_11+36=77.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "11 + 06 = 17",
+        "moves": [
+          "Move(E1, C5)",
+          "Move(C0, C6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E1",
+            "C0"
+          ],
+          "place": [
+            "C5",
+            "C6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of **C** to its upper-left, and move the top segment of **E** to the lower-left of **C**. This changes **C = 3** into **0**, and **E = 7** into **1**, giving the valid equation **11 + 06 = 17**.\n\n\\boxed{{Move(C0, C6), Move(E1, C5)}}"
+  },
+  {
+    "id": "00312864",
+    "level": 4,
+    "problem": "18+01=11",
+    "image": "level4/00312864_18+01=11.png",
+    "solution_num": [
+      3,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "18 - 07 = 11",
+        "moves": [
+          "Move(G0, D1)"
+        ]
+      },
+      {
+        "solution": "18 - 01 = 17",
+        "moves": [
+          "Move(G0, F1)"
+        ]
+      },
+      {
+        "solution": "16 + 01 = 17",
+        "moves": [
+          "Move(B2, F1)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "13 + 01 = 14",
+        "moves": [
+          "Move(B5, F0)",
+          "Move(B6, F6)"
+        ]
+      },
+      {
+        "solution": "10 + 61 = 71",
+        "moves": [
+          "Move(B0, E1)",
+          "Move(C2, C0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "G0",
+          "place": "D1"
+        },
+        {
+          "pick": "G0",
+          "place": "F1"
+        },
+        {
+          "pick": "B2",
+          "place": "F1"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "B5",
+            "B6"
+          ],
+          "place": [
+            "F0",
+            "F6"
+          ]
+        },
+        {
+          "pick": [
+            "B0",
+            "C2"
+          ],
+          "place": [
+            "E1",
+            "C0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right segment of **B** to the top segment of **F**. This changes **8 → 6** and **1 → 7**, giving the valid equation **16 + 01 = 17**.\n\n\\boxed{{Move(B2, F1)}}"
+  },
+  {
+    "id": "00349573",
+    "level": 4,
+    "problem": "20-49=36",
+    "image": "level4/00349573_20-49=36.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "80 - 44 = 36",
+        "moves": [
+          "Move(D1, A3)",
+          "Move(D4, A6)"
+        ]
+      },
+      {
+        "solution": "80 - 45 = 35",
+        "moves": [
+          "Move(F5, A3)",
+          "Move(D2, A6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "D1",
+            "D4"
+          ],
+          "place": [
+            "A3",
+            "A6"
+          ]
+        },
+        {
+          "pick": [
+            "F5",
+            "D2"
+          ],
+          "place": [
+            "A3",
+            "A6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the match at **D2** to **A6** and the match at **F5** to **A3**.  \nThis turns **2 → 8**, **9 → 5**, and **6 → 5**, so the equation becomes **80 - 45 = 35**, which is correct.\n\n\\boxed{{Move(D2, A6), Move(F5, A3)}}"
+  },
+  {
+    "id": "00647523",
+    "level": 4,
+    "problem": "45-58=58",
+    "image": "level4/00647523_45-58=58.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "45 + 53 = 98",
+        "moves": [
+          "Move(D5, G0)",
+          "Move(D6, E2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "D5",
+            "D6"
+          ],
+          "place": [
+            "G0",
+            "E2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two left vertical matches from **D** (the middle-right `8`). Put one on **E2** to turn the result’s `5` into `9`, and put the other on the operator’s vertical segment **G1** to turn `-` into `+`. Then **D** becomes `3`, giving:\n\n**45 + 53 = 98**\n\n\\boxed{{Move(D6, E2), Move(D5, G1)}}"
+  },
+  {
+    "id": "00665515",
+    "level": 4,
+    "problem": "47+85=03",
+    "image": "level4/00665515_47+85=03.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "47 + 36 = 83",
+        "moves": [
+          "Move(C5, E0)",
+          "Move(C6, D5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C5",
+            "C6"
+          ],
+          "place": [
+            "E0",
+            "D5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two left-side matches from the **8** in position **C**: put one on **D5** to change **5 → 6**, and put the other on **E0** to change **0 → 8**. Then **C** becomes **3**, so the equation reads **47 + 36 = 83**, which is correct.\n\n\\boxed{{Move(C6, D5), Move(C5, E0)}}"
+  },
+  {
+    "id": "00724294",
+    "level": 4,
+    "problem": "52+30=37",
+    "image": "level4/00724294_52+30=37.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "52 + 39 = 91",
+        "moves": [
+          "Move(F1, E6)",
+          "Move(D5, D0)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "F1",
+            "D5"
+          ],
+          "place": [
+            "E6",
+            "D0"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match of the final **7** to the upper-left of the **3** on the right, turning **37** into **91**. Then move the lower-left match of **0** to its middle segment, turning **30** into **39**. The equation becomes **52 + 39 = 91**.\n\n\\boxed{{Move(F1, E6), Move(D5, D0)}}"
+  },
+  {
+    "id": "00778345",
+    "level": 4,
+    "problem": "56+51=67",
+    "image": "level4/00778345_56+51=67.png",
+    "solution_num": [
+      0,
+      4
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "58 - 51 = 07",
+        "moves": [
+          "Move(G0, E2)",
+          "Move(E0, B2)"
+        ]
+      },
+      {
+        "solution": "56 + 01 = 57",
+        "moves": [
+          "Move(E5, C2)",
+          "Move(C0, C5)"
+        ]
+      },
+      {
+        "solution": "36 + 31 = 67",
+        "moves": [
+          "Move(A6, A2)",
+          "Move(C6, C2)"
+        ]
+      },
+      {
+        "solution": "06 + 51 = 57",
+        "moves": [
+          "Move(E5, A2)",
+          "Move(A0, A5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "E0"
+          ],
+          "place": [
+            "E2",
+            "B2"
+          ]
+        },
+        {
+          "pick": [
+            "E5",
+            "C0"
+          ],
+          "place": [
+            "C2",
+            "C5"
+          ]
+        },
+        {
+          "pick": [
+            "A6",
+            "C6"
+          ],
+          "place": [
+            "A2",
+            "C2"
+          ]
+        },
+        {
+          "pick": [
+            "E5",
+            "A0"
+          ],
+          "place": [
+            "A2",
+            "A5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match of each **5** to the upper-right position, turning both **5**s into **3**s.  \nThis changes the equation from **56 + 51 = 67** to **36 + 31 = 67**, which is correct.\n\n\\boxed{{Move(A6, A2), Move(C6, C2)}}"
+  },
+  {
+    "id": "00857052",
+    "level": 4,
+    "problem": "61-13=12",
+    "image": "level4/00857052_61-13=12.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "31 - 19 = 12",
+        "moves": [
+          "Move(A5, A2)",
+          "Move(A6, D6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "A6"
+          ],
+          "place": [
+            "A2",
+            "D6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move one match within the first digit to turn **6 → 9**, then move one match from that digit to the fourth digit to turn **9 → 3** and **3 → 9**.  \nThis changes the equation from **61 - 13 = 12** to **31 - 19 = 12**, which is correct.\n\n\\boxed{Move(A5, A2), Move(A6, D6)}"
+  },
+  {
+    "id": "00903044",
+    "level": 4,
+    "problem": "65+12=60",
+    "image": "level4/00903044_65+12=60.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "55 + 13 = 68",
+        "moves": [
+          "Move(A5, F0)",
+          "Move(D5, D3)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A5",
+            "D5"
+          ],
+          "place": [
+            "F0",
+            "D3"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-left match from the first digit **A5** to the middle segment of the last digit **F0**, turning **6 → 5** and **0 → 8**. Then move **D5** to **D3**, turning **2 → 3**. The equation becomes **55 + 13 = 68**, which is correct.\n\n\\boxed{{Move(A5, F0), Move(D5, D3)}}"
+  },
+  {
+    "id": "00914679",
+    "level": 4,
+    "problem": "65-72=19",
+    "image": "level4/00914679_65-72=19.png",
+    "solution_num": [
+      1,
+      2
+    ],
+    "mode_1_solution": [
+      {
+        "solution": "85 - 72 = 13",
+        "moves": [
+          "Move(F6, A2)"
+        ]
+      }
+    ],
+    "mode_2_solution": [
+      {
+        "solution": "85 - 12 = 73",
+        "moves": [
+          "Move(F6, E1)",
+          "Move(C1, A2)"
+        ]
+      },
+      {
+        "solution": "86 - 72 = 14",
+        "moves": [
+          "Move(F1, A2)",
+          "Move(F4, B5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [
+        {
+          "pick": "F6",
+          "place": "A2"
+        }
+      ],
+      "mode_2": [
+        {
+          "pick": [
+            "F6",
+            "C1"
+          ],
+          "place": [
+            "E1",
+            "A2"
+          ]
+        },
+        {
+          "pick": [
+            "F1",
+            "F4"
+          ],
+          "place": [
+            "A2",
+            "B5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-left match from the last digit `F` to the missing upper-right segment of the first digit `A`. This changes the equation from **65 - 72 = 19** to **85 - 72 = 13**, which is correct.\n\n\\boxed{{Move(F6, A2)}}"
+  },
+  {
+    "id": "00929221",
+    "level": 4,
+    "problem": "66-59=86",
+    "image": "level4/00929221_66-59=86.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "66 - 60 = 06",
+        "moves": [
+          "Move(E0, C5)",
+          "Move(D0, D5)"
+        ]
+      },
+      {
+        "solution": "68 - 59 = 09",
+        "moves": [
+          "Move(E0, F2)",
+          "Move(F5, B2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E0",
+            "D0"
+          ],
+          "place": [
+            "C5",
+            "D5"
+          ]
+        },
+        {
+          "pick": [
+            "E0",
+            "F5"
+          ],
+          "place": [
+            "F2",
+            "B2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of **D** to its lower-left to turn **9 → 0**, and move the middle segment of **E** to the lower-left of **C** to turn **8 → 0** and **5 → 6**. The equation becomes **66 - 60 = 06**, which is correct.\n\n\\boxed{{Move(D0, D5), Move(E0, C5)}}"
+  },
+  {
+    "id": "00996614",
+    "level": 4,
+    "problem": "71-33=06",
+    "image": "level4/00996614_71-33=06.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "71 - 33 = 38",
+        "moves": [
+          "Move(E5, E0)",
+          "Move(E6, F2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "E5",
+            "E6"
+          ],
+          "place": [
+            "E0",
+            "F2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the two left-side matches of the `0` in `E` so that one becomes the middle bar of `E` and the other becomes the missing upper-right bar of `F`. This changes `06` into `38`, giving the correct equation `71 - 33 = 38`.\n\n\\boxed{{Move(E6, E0), Move(E5, F2)}}"
+  },
+  {
+    "id": "00999806",
+    "level": 4,
+    "problem": "71-95=36",
+    "image": "level4/00999806_71-95=36.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "71 - 33 = 38",
+        "moves": [
+          "Move(C6, F2)",
+          "Move(D6, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C6",
+            "D6"
+          ],
+          "place": [
+            "F2",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move **C6 → F2** to turn **9** into **3** and **6** into **8**.  \nMove **D6 → D2** to turn **5** into **3**.  \nThe equation becomes **71 - 33 = 38**, which is correct.\n\n\\boxed{{Move(C6, F2), Move(D6, D2)}}"
+  },
+  {
+    "id": "01023063",
+    "level": 4,
+    "problem": "73-86=77",
+    "image": "level4/01023063_73-86=77.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "73 - 36 = 37",
+        "moves": [
+          "Move(C5, E0)",
+          "Move(C6, E4)"
+        ]
+      },
+      {
+        "solution": "79 - 08 = 71",
+        "moves": [
+          "Move(F1, B6)",
+          "Move(C0, D2)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "C5",
+            "C6"
+          ],
+          "place": [
+            "E0",
+            "E4"
+          ]
+        },
+        {
+          "pick": [
+            "F1",
+            "C0"
+          ],
+          "place": [
+            "B6",
+            "D2"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the middle segment of **C** to the upper-left of **B**, turning **8 → 0** and **3 → 9**. Then move the top segment of **F** to the upper-right of **D**, turning **7 → 1** and **6 → 8**.  \nThis gives the valid equation: **79 - 08 = 71**.\n\n\\boxed{{Move(C0, B6), Move(F1, D2)}}"
+  },
+  {
+    "id": "01085748",
+    "level": 4,
+    "problem": "79+14=34",
+    "image": "level4/01085748_79+14=34.png",
+    "solution_num": [
+      0,
+      3
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "15 + 19 = 34",
+        "moves": [
+          "Move(A1, D1)",
+          "Move(B2, D4)"
+        ]
+      },
+      {
+        "solution": "19 + 14 = 33",
+        "moves": [
+          "Move(A1, F1)",
+          "Move(F6, F4)"
+        ]
+      },
+      {
+        "solution": "19 + 15 = 34",
+        "moves": [
+          "Move(A1, D1)",
+          "Move(D2, D4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A1",
+            "B2"
+          ],
+          "place": [
+            "D1",
+            "D4"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "F6"
+          ],
+          "place": [
+            "F1",
+            "F4"
+          ]
+        },
+        {
+          "pick": [
+            "A1",
+            "D2"
+          ],
+          "place": [
+            "D1",
+            "D4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the top match of the first digit **7** to the top of the **4**, then move the upper-right match of that **4** to its bottom. This changes the equation from **79 + 14 = 34** to **19 + 15 = 34**, which is correct.\n\n\\boxed{{Move(A1, D1), Move(D2, D4)}}"
+  },
+  {
+    "id": "01090324",
+    "level": 4,
+    "problem": "79+91=76",
+    "image": "level4/01090324_79+91=76.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "79 - 01 = 78",
+        "moves": [
+          "Move(G0, F2)",
+          "Move(C0, C5)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "G0",
+            "C0"
+          ],
+          "place": [
+            "F2",
+            "C5"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the lower-right match of the left `3` to its lower-left segment, making `3 → 2`, and move the middle match of `9` to its lower-left segment, making `9 → 0`. The equation becomes `72 + 01 = 73`, which is valid.\n\n\\boxed{{Move(B3, B5), Move(C0, C5)}}"
+  },
+  {
+    "id": "01096919",
+    "level": 4,
+    "problem": "79-81=32",
+    "image": "level4/01096919_79-81=32.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "33 - 01 = 32",
+        "moves": [
+          "Move(B6, A0)",
+          "Move(C0, A4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B6",
+            "C0"
+          ],
+          "place": [
+            "A0",
+            "A4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": null,
+    "error": "Request timed out."
+  },
+  {
+    "id": "01151846",
+    "level": 4,
+    "problem": "83-22=52",
+    "image": "level4/01151846_83-22=52.png",
+    "solution_num": [
+      0,
+      1
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "84 - 22 = 62",
+        "moves": [
+          "Move(B1, E5)",
+          "Move(B4, B6)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "B1",
+            "B4"
+          ],
+          "place": [
+            "E5",
+            "B6"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the **top match of B** to its **upper-left segment** so **B: 3 → 4**, and move the **bottom match of B** to the **lower-left segment of E** so **E: 5 → 6**.  \nThe equation becomes **84 - 22 = 62**, which is correct.\n\n\\boxed{{Move(B1, B6), Move(B4, E5)}}"
+  },
+  {
+    "id": "01247204",
+    "level": 4,
+    "problem": "89-52=17",
+    "image": "level4/01247204_89-52=17.png",
+    "solution_num": [
+      0,
+      2
+    ],
+    "mode_1_solution": [],
+    "mode_2_solution": [
+      {
+        "solution": "69 - 58 = 11",
+        "moves": [
+          "Move(A2, D3)",
+          "Move(F1, D6)"
+        ]
+      },
+      {
+        "solution": "65 - 52 = 13",
+        "moves": [
+          "Move(A2, F0)",
+          "Move(B2, F4)"
+        ]
+      }
+    ],
+    "option_answer": {
+      "mode_1": [],
+      "mode_2": [
+        {
+          "pick": [
+            "A2",
+            "F1"
+          ],
+          "place": [
+            "D3",
+            "D6"
+          ]
+        },
+        {
+          "pick": [
+            "A2",
+            "B2"
+          ],
+          "place": [
+            "F0",
+            "F4"
+          ]
+        }
+      ]
+    },
+    "model": "gpt-5.4-high",
+    "temperature": 0.7,
+    "response_raw": "Move the upper-right match of the first digit **8** to the upper-left segment of the second digit **3**. This changes **83 - 52 = 17** into **69 - 52 = 17**, which is correct.\n\n\\boxed{{Move(A2, B6)}}"
+  }
+]
